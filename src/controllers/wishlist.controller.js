@@ -1,26 +1,37 @@
+
 /**
+ * @purpose      forwarding and excecuting the requests
+ * @module       controller
+ * @file         book.controller.js
+ * @author       deepak
+ * @since        1/2/2022
+ */
+
+ import * as wishlistService from '../services/wishlist.service';
+
+ /**
+  * Controller to create a new Book
+  * @param  {object} req - request object
+  * @param {object} res - response object
+  * @param {Function} next
+  */
+ export const newBook = async (req, res, next) => {
+   try {
+     const data = await wishlistService.newBook(req);
+     res.status(data.status).json(data);
+   } catch (error) {
+     next(error);
+   }
+ };
+ 
+
+ /**
  * @purpose      forwarding and excecuting the requests
  * @module       controller
  * @file         wishlist.controller.js
  * @author       deepak
  * @since        1/2/2022
  */
-
-import wishlistService from '../services/wishlist.service';
-/**
- * Controller to create a new Book
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
-export const addWishlist = async (req, res, next) => {
-  try {
-    const data = await wishlistService.addWishlist(req.body);
-    res.status(data.status).json(data);
-  } catch (error) {
-    next(error);
-  }
-};
 
 /**
  * Controller to get all Books available
@@ -30,24 +41,24 @@ export const addWishlist = async (req, res, next) => {
  */
 export const getWishlist = async (req, res, next) => {
   try {
-    const data = await wishlistService.getWishlist();
+    const data = await wishlistService.getWishlist(req);
     res.status(data.status).json(data);
   } catch (error) {
     next(error);
   }
 };
 
-//remove from  wishlist
+
 /**
  * Controller to delete a Book
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next
  */
-export const updateWishlist = async (req, res, next) => {
+export const removeWishlist = async (req, res, next) => {
   try {
-    //await BookService.deleteBook(req.params._id);
-    let data = await wishlistService.deleteWishlist(req.params._id);
+
+    let data = await wishlistService.removeWishlist(req);
     res.status(data.status).json(data);
   } catch (error) {
     next(error);

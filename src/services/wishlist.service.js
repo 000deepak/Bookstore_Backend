@@ -10,7 +10,7 @@ import Wishlist from '../models/wishlist.model';
 import Book from '../models/book.model';
 
 //add to Wishlist
-export const addWishlist = async (body) => {
+export const newBook = async (req) => {
   let response = {
     status: 201,
     success: true,
@@ -18,33 +18,31 @@ export const addWishlist = async (body) => {
     data: ''
   };
 
-  console.log(body.book);
-  console.log(body.book[0].bookId, 'bookId');
-  console.log(body.book[0].quantity, 'quantity');
+  console.log(req.params);
+  console.log(req.params.bookId, 'bookId');
 
   //1.check for book availibilty
-  let checkBook = await Book.findOne({ _id: body.book[0].bookId });
+  let checkBook = await Book.findOne({ _id: req.params.bookId });
 
   console.log(checkBook, 'availability');
 
   if (checkBook) {
-    let checkWishlist = await Wishlist.findOne({ userId: body.data.userId });
+    let checkWishlist = await Wishlist.findOne({
+      userId: req.body.data.userId
+    });
 
     console.log(checkWishlist, 'checkWishlist');
 
     //check if Wishlist for user is present
     if (!checkWishlist) {
-      let newItem = new Wishlist({
-        userId: body.data.userId,
-        book: [
-          { bookId: body.book[0].bookId, quantity: body.book[0].quantity }
-        ],
-        isPurchased: body.isPurchased
+      let wishlist = new Wishlist({
+        userId: req.body.data.userId,
+        book: [{ bookId: req.params.bookId }]
       });
 
-      console.log(newItem, 'new Item');
+      console.log(wishlist, 'new wishlist');
 
-      const data = await Wishlist.create(newItem);
+      const data = await Wishlist.create(wishlist);
 
       response.status = 201;
       response.success = true;
@@ -52,54 +50,41 @@ export const addWishlist = async (body) => {
       response.data = data;
       return response;
     } else {
-      //if Wishlist presemt
-      let book = { bookId: body.bookId };
+      const checkBookInWishlist = await checkWishlist.book.filter(
+        (x) => x.bookId === req.params.bookId
+      );
 
-      //3.check if book present
-      let foundBook = await Wishlist.findOne({ bookId: body.bookId });
+      console.log(
+        checkBookInWishlist,
+        'got book from cart',
+        checkBookInWishlist.length,
+        'length'
+      );
 
-      // console.log(body.data.userId, body.bookId);
-      console.log(foundBook, 'found book');
+      if (checkBookInWishlist.length == 0) {
+        console.log('inside add book to existing wishlist');
 
-      if (/* foundBook */ false) {
-        console.log(foundBook.book[0]);
+        const newWish = {
+          bookId: req.params.bookId
+        };
 
-        //if book present update
-        foundBook.book[0].quantity = foundBook.book[0].quantity + 1;
+        console.log(newWish);
 
-        console.log(foundBook.book[0].quantity);
+        checkWishlist.book.push(newWish);
 
-        const data = await Wishlist.findByIdAndUpdate(
-          { _id: foundBook._id },
-          foundBook,
-          {
-            new: true
-          }
-        );
+        console.log(checkWishlist, 'push result');
+
+        await checkWishlist.save();
 
         response.status = 200;
         response.success = false;
         response.message = 'Wishlist Updated';
-        response.data = data;
+        response.data = checkWishlist;
         return response;
       } else {
-        console.log('else');
-        //if book not present add book to Wishlist
-        const newBook = {
-          bookId: body.book[0].bookId,
-          quantity: body.book[0].quantity
-        };
-
-        checkWishlist.book.push(newBook, 'newBook');
-
-        console.log(checkWishlist, 'push result');
-
-        // checkWishlist.save();
-        Wishlist.create(checkWishlist);
-
         response.status = 200;
         response.success = false;
-        response.message = 'book added';
+        response.message = 'Book Already Added';
         response.data = ' ';
         return response;
       }
@@ -115,9 +100,7 @@ export const addWishlist = async (body) => {
 };
 
 //get all Wishlist Books
-export const getWishlist = async (body) => {
-  const data = await Wishlist.find({ userId: body.data.userId });
-
+export const getWishlist = async (req) => {
   let response = {
     status: 201,
     success: true,
@@ -125,48 +108,88 @@ export const getWishlist = async (body) => {
     data: ''
   };
 
-  response.status = 200;
-  response.success = true;
-  response.message = 'Books Fetched';
-  response.data = data;
-  return response;
-};
+  let checkWishlist = Wishlist.find({ userId: req.body.data.userId });
 
-//update wishlist
-export const updateWishlist = async (bookId, body) => {
-  let response = {
-    status: 201,
-    success: true,
-    message: '',
-    data: ''
-  };
+  if (checkWishlist) {
+    console.log('hi');
 
-  let book = { userId: body.data.userId, bookId: bookId };
+    const data = await Wishlist.find({ userId: req.body.data.userId });
 
-  let foundBook = await Wishlist.findOne(book);
-
-  console.log(book, foundBook);
-
-  if (foundBook) {
-    foundBook.quantity = body.quantity;
-
-    const data = await Wishlist.findByIdAndUpdate(
-      { _id: foundBook._id, userId: body.data.userId, bookId: bookId },
-      foundBook,
-      {
-        new: true
-      }
-    );
     response.status = 200;
     response.success = true;
-    response.message = 'Wishlist Updated';
+    response.message = 'Books Fetched';
     response.data = data;
     return response;
   } else {
-    response.status = 404;
+    response.status = 200;
+    response.success = true;
+    response.message = 'No Active Wishlist Found';
+    return response;
+  }
+};
+
+//remove wishlist
+export const removeWishlist = async (req) => {
+  let response = {
+    status: 201,
+    success: true,
+    message: '',
+    data: ''
+  };
+
+  console.log(req.params);
+  console.log(req.params.bookId, 'bookId');
+
+  let checkWishlist = await Wishlist.findOne({
+    userId: req.body.data.userId
+  });
+
+  console.log(checkWishlist, 'checking Wishlist present or absent');
+
+  //check if Wishlist for user is present
+  if (checkWishlist) {
+    const checkBookInWishlist = await checkWishlist.book.filter(
+      (x) => x.bookId === req.params.bookId
+    );
+
+    console.log(
+      checkBookInWishlist,
+      'got book from cart',
+      checkBookInWishlist.length,
+      'length'
+    );
+
+    if (checkBookInWishlist.length !== 0) {
+      console.log('inside removing book from wishlist');
+
+      await Wishlist.updateOne(
+        { userId: req.body.data.userId },
+        {
+          $pull: {
+            book: {
+              bookId: req.params.bookId
+            }
+          }
+        }
+      );
+
+      response.status = 200;
+      response.success = false;
+      response.message = 'Wishlist Updated';
+      response.data = checkWishlist;
+      return response;
+    } else {
+      response.status = 200;
+      response.success = false;
+      response.message = 'Book Not Found In Wishlist';
+      response.data = ' ';
+      return response;
+    }
+  } else {
+    response.status = 200;
     response.success = false;
-    response.message = 'Wishlist Not Found';
-    response.data = body;
+    response.message = 'No Active Wishlist';
+    response.data = ' ';
     return response;
   }
 };

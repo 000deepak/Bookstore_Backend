@@ -175,7 +175,7 @@ export const removeWishlist = async (req) => {
 
       response.status = 200;
       response.success = false;
-      response.message = 'Wishlist Updated';
+      response.message = 'Book Removed from wishlist';
       response.data = checkWishlist;
       return response;
     } else {

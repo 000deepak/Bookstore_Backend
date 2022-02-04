@@ -386,3 +386,9 @@ info: ::ffff:127.0.0.1 - - [04/Feb/2022:07:19:27 +0000] "PUT /api/v1/wishlist/re
 
 info: ::ffff:127.0.0.1 - - [04/Feb/2022:07:20:25 +0000] "PUT /api/v1/wishlist/remove/61fb6ca2a096bf13884a654f HTTP/1.1" 200 367 "-" "Thunder Client (https://www.thunderclient.io)"
 
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:08:10:51 +0000] "POST /api/v1/cart/cart/61fb6ca2a096bf13884a654f HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:08:12:15 +0000] "POST /api/v1/cart/cart/61fb6ca2a096bf13884a654f HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:08:14:50 +0000] "POST /api/v1/cart/cart/61fb6ca2a096bf13884a654f HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+

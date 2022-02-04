@@ -1,0 +1,254 @@
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T02:23:45.944Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:23:45.993Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:32:43.872Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T02:33:25.519Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:33:25.566Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T02:57:57.696Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:57:57.738Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T02:58:55.425Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:58:55.473Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:00:15.633Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:00:15.679Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:00:30.713Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:00:30.767Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:01:07.744Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:01:07.790Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:03:36.456Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:03:36.494Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:04:42.246Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:04:42.283Z"}
+error: 
+    status - 500 
+    message - ReferenceError: done is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:106:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:04:43.955Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:07:06.101Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:07:06.141Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:08:16.827Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:08:16.871Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:10:23.715Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:10:23.763Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:11:25.988Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:11:26.038Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:12:01.446Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:12:01.484Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:19:04.806Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:19:04.843Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:20:30.525Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:20:30.557Z"}
+error: 
+    status - 500 
+    message - ReferenceError: checkCartCart is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:15:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:20:36.971Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:22:46.088Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:22:46.127Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:23:53.631Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:23:53.681Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:27:07.903Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:27:07.940Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:86:25)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:27:10.491Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:27:36.600Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:27:36.639Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:31:50.856Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:31:50.893Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ bookId: undefined }" (type Object) at path "_id" for model "Cart"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:31:53.595Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:34:10.271Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:34:10.306Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '0')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:68:21)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:34:14.932Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:37:12.873Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:37:12.916Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:39:11.170Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:39:11.225Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:41:47.449Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:41:47.485Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:42:38.598Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:42:38.636Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:43:16.063Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:43:16.099Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:52:28.362Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:52:28.395Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'filter')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:75:51)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:53:02.492Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:53:34.121Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:53:34.160Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:57:50.576Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:57:50.610Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:58:38.872Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:58:38.905Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:01:41.719Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:01:41.753Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:04:27.843Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:04:27.876Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:05:46.191Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:05:46.227Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:06:17.099Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:06:17.133Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:07:24.619Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:07:24.654Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:08:21.777Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:08:21.816Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:09:54.160Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:09:54.192Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:10:36.977Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:10:37.012Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:12:08.961Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:12:08.996Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:12:56.695Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:12:56.735Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:13:37.358Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:13:37.393Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:18:36.333Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:18:36.371Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:18:45.580Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:18:45.614Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '0')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:103:19)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T04:19:20.983Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:19:49.603Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:19:49.639Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'bookId')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:76:39)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T04:19:50.855Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:25:00.199Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:25:00.233Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:86:55)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T04:25:03.863Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:26:16.534Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:26:16.568Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:27:45.673Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:27:45.705Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '61fc09ee7f10df0aa05586a7', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T04:27:47.253Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:30:37.072Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:30:37.121Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.1.quantity: Cast to Number failed for value "NaN" (type number) at path "quantity"
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:47:12)
+    at new EmbeddedDocument (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schema\documentarray.js:116:17)
+    at CoreDocumentArray._cast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:109:12)
+    at CoreDocumentArray._mapCast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:272:17)
+    at Arguments.map (<anonymous>)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:666:21)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:210:28)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:108:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T04:30:58.380Z"}

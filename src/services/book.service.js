@@ -46,3 +46,22 @@ export const newBook = async (body) => {
     return response;
   }
 };
+
+
+//get all Books
+export const getBooks = async () => {
+  const data = await Book.find();
+
+  let response = {
+    status: 201,
+    success: true,
+    message: '',
+    data: ''
+  };
+
+  response.status = 200;
+  response.success = true;
+  response.message = 'Books Fetched';
+  response.data = data;
+  return response;
+};

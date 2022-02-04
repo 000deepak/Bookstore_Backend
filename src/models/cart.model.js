@@ -11,12 +11,16 @@ const cartSchema = new Schema({
   userId: {
     type: String
   },
-  bookId: {
-    type: String
-  },
-  quantity: {
-    type: Number
-  },
+  book: [
+    {
+      bookId: {
+        type: String
+      },
+      quantity: {
+        type: Number
+      }
+    }
+  ],
   isPurchased: {
     type: Boolean,
     default: false

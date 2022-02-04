@@ -6,24 +6,22 @@
  * @since        1/2/2022
  */
 
-import { Schema, model } from "mongoose";
+import { Schema, model } from 'mongoose';
 
-const wishListSchema=new Schema ({
-  UserID:{
-      type:String
+const wishListSchema = new Schema({
+  userId: {
+    type: String
   },
-  Book:[
-      {
-          BookID:{
-              type:String
-          },
-          Price:{
-              type:Number
-          }
-
+  book: [
+    {
+      bookId: {
+        type: String
+      },
+      price: {
+        type: Number
       }
+    }
   ]
+});
 
-})
-
-export default model("Wishlist",wishListSchema);
+export default model('Wishlist', wishListSchema);

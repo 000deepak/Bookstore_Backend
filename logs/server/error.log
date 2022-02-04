@@ -1,0 +1,555 @@
+error: 
+    status - 500 
+    message - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:27:20)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addCart (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:15:21)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\controllers\/cart.controller.js:18:36)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T14:13:24.726Z"}
+error: 
+    status - 500 
+    message - ReferenceError: checkCart is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:15:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:02:00.823Z"}
+error: 
+    status - 500 
+    message - ReferenceError: checkcart is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:31:27)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:06:08.112Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:63:29)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:17:15.387Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'push')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:92:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:21:18.176Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:108:21)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:48:52.533Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'book')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:23:23)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addCart (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:15:21)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\controllers\/cart.controller.js:18:36)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:51:46.065Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'book')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:23:31)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addCart (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:15:21)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\controllers\/cart.controller.js:18:36)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:53:28.089Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:69:56)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:45:25.827Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:66:39)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:48:57.208Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:66:39)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:49:41.139Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:66:39)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:50:19.335Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:70:56)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:52:25.171Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:70:56)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:52:56.576Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:104:25)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T17:07:39.747Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:104:25)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T17:09:57.592Z"}
+error: uncaughtException: Cart validation failed: book.3._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+ValidationError: Cart validation failed: book.3._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:47:12)
+    at new EmbeddedDocument (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schema\documentarray.js:116:17)
+    at CoreDocumentArray._cast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:109:12)
+    at CoreDocumentArray._mapCast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:272:17)
+    at Arguments.map (<anonymous>)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:666:21)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:210:28)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:95:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21) {"date":"Thu Feb 03 2022 22:39:57 GMT+0530 (India Standard Time)","error":{"_message":"Cart validation failed","errors":{"book.3._id":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"newBook\"","value":"newBook","valueType":"string"}},"message":"Cart validation failed: book.3._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"ValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1583},"process":{"argv":["node","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18606579,"external":20958125,"heapTotal":96600064,"heapUsed":65870472,"rss":129470464},"pid":1336,"uid":null,"version":"v16.13.0"},"stack":"ValidationError: Cart validation failed: book.3._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"\n    at model.Document.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:2782:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:298:29)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1349:12)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1058:16)\n    at EmbeddedDocument.Document (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:148:12)\n    at EmbeddedDocument [as constructor] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:47:12)\n    at new EmbeddedDocument (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js:116:17)\n    at CoreDocumentArray._cast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:109:12)\n    at CoreDocumentArray._mapCast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:272:17)\n    at Arguments.map (<anonymous>)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:666:21)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:210:28)\n    at _callee$ (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js:95:24)\n    at tryCatch (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)","timestamp":"2022-02-03T17:09:57.668Z","trace":[{"column":32,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.invalidate","line":2782,"method":"invalidate","native":false},{"column":29,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument.invalidate","line":298,"method":"invalidate","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1349,"method":"$set","native":false},{"column":16,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1058,"method":"$set","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.Document","line":148,"method":"Document","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument [as constructor]","line":47,"method":null,"native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js","function":"new EmbeddedDocument","line":116,"method":null,"native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray._cast","line":109,"method":"_cast","native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray._mapCast","line":272,"method":"_mapCast","native":false},{"column":null,"file":null,"function":"Arguments.map","line":null,"method":"map","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray.push","line":666,"method":"push","native":false},{"column":28,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray.push","line":210,"method":"push","native":false},{"column":24,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js","function":"_callee$","line":95,"method":null,"native":false},{"column":40,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"tryCatch","line":63,"method":null,"native":false},{"column":22,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.invoke [as _invoke]","line":294,"method":"invoke [as _invoke]","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.next","line":119,"method":"next","native":false}]}
+error: uncaughtException: Cart validation failed: book.3._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+ValidationError: Cart validation failed: book.3._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:47:12)
+    at new EmbeddedDocument (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schema\documentarray.js:116:17)
+    at CoreDocumentArray._cast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:109:12)
+    at CoreDocumentArray._mapCast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:272:17)
+    at Arguments.map (<anonymous>)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:666:21)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:210:28)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:95:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21) {"date":"Thu Feb 03 2022 22:40:31 GMT+0530 (India Standard Time)","error":{"_message":"Cart validation failed","errors":{"book.3._id":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"newBook\"","value":"newBook","valueType":"string"}},"message":"Cart validation failed: book.3._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"ValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1616},"process":{"argv":["node","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18631155,"external":20982698,"heapTotal":94756864,"heapUsed":64085784,"rss":128208896},"pid":4464,"uid":null,"version":"v16.13.0"},"stack":"ValidationError: Cart validation failed: book.3._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"\n    at model.Document.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:2782:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:298:29)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1349:12)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1058:16)\n    at EmbeddedDocument.Document (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:148:12)\n    at EmbeddedDocument [as constructor] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:47:12)\n    at new EmbeddedDocument (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js:116:17)\n    at CoreDocumentArray._cast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:109:12)\n    at CoreDocumentArray._mapCast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:272:17)\n    at Arguments.map (<anonymous>)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:666:21)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:210:28)\n    at _callee$ (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js:95:24)\n    at tryCatch (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)","timestamp":"2022-02-03T17:10:31.261Z","trace":[{"column":32,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.invalidate","line":2782,"method":"invalidate","native":false},{"column":29,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument.invalidate","line":298,"method":"invalidate","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1349,"method":"$set","native":false},{"column":16,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1058,"method":"$set","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.Document","line":148,"method":"Document","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument [as constructor]","line":47,"method":null,"native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js","function":"new EmbeddedDocument","line":116,"method":null,"native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray._cast","line":109,"method":"_cast","native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray._mapCast","line":272,"method":"_mapCast","native":false},{"column":null,"file":null,"function":"Arguments.map","line":null,"method":"map","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray.push","line":666,"method":"push","native":false},{"column":28,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray.push","line":210,"method":"push","native":false},{"column":24,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js","function":"_callee$","line":95,"method":null,"native":false},{"column":40,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"tryCatch","line":63,"method":null,"native":false},{"column":22,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.invoke [as _invoke]","line":294,"method":"invoke [as _invoke]","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.next","line":119,"method":"next","native":false}]}
+error: uncaughtException: Cart validation failed: book.2._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+ValidationError: Cart validation failed: book.2._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:47:12)
+    at new EmbeddedDocument (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schema\documentarray.js:116:17)
+    at CoreDocumentArray._cast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:109:12)
+    at CoreDocumentArray._mapCast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:272:17)
+    at Arguments.map (<anonymous>)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:666:21)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:210:28)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:95:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21) {"date":"Thu Feb 03 2022 22:42:39 GMT+0530 (India Standard Time)","error":{"_message":"Cart validation failed","errors":{"book.2._id":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"newBook\"","value":"newBook","valueType":"string"}},"message":"Cart validation failed: book.2._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"ValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1744},"process":{"argv":["node","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18467014,"external":20031711,"heapTotal":48357376,"heapUsed":45423704,"rss":81649664},"pid":2488,"uid":null,"version":"v16.13.0"},"stack":"ValidationError: Cart validation failed: book.2._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"\n    at model.Document.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:2782:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:298:29)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1349:12)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1058:16)\n    at EmbeddedDocument.Document (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:148:12)\n    at EmbeddedDocument [as constructor] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:47:12)\n    at new EmbeddedDocument (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js:116:17)\n    at CoreDocumentArray._cast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:109:12)\n    at CoreDocumentArray._mapCast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:272:17)\n    at Arguments.map (<anonymous>)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:666:21)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:210:28)\n    at _callee$ (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js:95:24)\n    at tryCatch (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)","timestamp":"2022-02-03T17:12:39.311Z","trace":[{"column":32,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.invalidate","line":2782,"method":"invalidate","native":false},{"column":29,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument.invalidate","line":298,"method":"invalidate","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1349,"method":"$set","native":false},{"column":16,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1058,"method":"$set","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.Document","line":148,"method":"Document","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument [as constructor]","line":47,"method":null,"native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js","function":"new EmbeddedDocument","line":116,"method":null,"native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray._cast","line":109,"method":"_cast","native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray._mapCast","line":272,"method":"_mapCast","native":false},{"column":null,"file":null,"function":"Arguments.map","line":null,"method":"map","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray.push","line":666,"method":"push","native":false},{"column":28,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray.push","line":210,"method":"push","native":false},{"column":24,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js","function":"_callee$","line":95,"method":null,"native":false},{"column":40,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"tryCatch","line":63,"method":null,"native":false},{"column":22,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.invoke [as _invoke]","line":294,"method":"invoke [as _invoke]","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.next","line":119,"method":"next","native":false}]}
+error: 
+    status - 500 
+    message - TypeError: _cart.default.save is not a function
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:99:14)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T17:20:31.683Z"}
+error: uncaughtException: Cart validation failed: book.2._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+ValidationError: Cart validation failed: book.2._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:47:12)
+    at new EmbeddedDocument (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schema\documentarray.js:116:17)
+    at CoreDocumentArray._cast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:109:12)
+    at CoreDocumentArray._mapCast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:272:17)
+    at Arguments.map (<anonymous>)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:666:21)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:210:28)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:95:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21) {"date":"Thu Feb 03 2022 22:53:12 GMT+0530 (India Standard Time)","error":{"_message":"Cart validation failed","errors":{"book.2._id":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"newBook\"","value":"newBook","valueType":"string"}},"message":"Cart validation failed: book.2._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"ValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2377},"process":{"argv":["node","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18647488,"external":20999076,"heapTotal":94494720,"heapUsed":63865896,"rss":127729664},"pid":4664,"uid":null,"version":"v16.13.0"},"stack":"ValidationError: Cart validation failed: book.2._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"\n    at model.Document.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:2782:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:298:29)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1349:12)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1058:16)\n    at EmbeddedDocument.Document (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:148:12)\n    at EmbeddedDocument [as constructor] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:47:12)\n    at new EmbeddedDocument (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js:116:17)\n    at CoreDocumentArray._cast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:109:12)\n    at CoreDocumentArray._mapCast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:272:17)\n    at Arguments.map (<anonymous>)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:666:21)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:210:28)\n    at _callee$ (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js:95:24)\n    at tryCatch (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)","timestamp":"2022-02-03T17:23:12.154Z","trace":[{"column":32,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.invalidate","line":2782,"method":"invalidate","native":false},{"column":29,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument.invalidate","line":298,"method":"invalidate","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1349,"method":"$set","native":false},{"column":16,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1058,"method":"$set","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.Document","line":148,"method":"Document","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument [as constructor]","line":47,"method":null,"native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js","function":"new EmbeddedDocument","line":116,"method":null,"native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray._cast","line":109,"method":"_cast","native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray._mapCast","line":272,"method":"_mapCast","native":false},{"column":null,"file":null,"function":"Arguments.map","line":null,"method":"map","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray.push","line":666,"method":"push","native":false},{"column":28,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray.push","line":210,"method":"push","native":false},{"column":24,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js","function":"_callee$","line":95,"method":null,"native":false},{"column":40,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"tryCatch","line":63,"method":null,"native":false},{"column":22,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.invoke [as _invoke]","line":294,"method":"invoke [as _invoke]","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.next","line":119,"method":"next","native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: cartService is not defined
+    at _callee2$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\controllers\/book.controller.js:32:25)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getBooks (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\controllers\/book.controller.js:32:22)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/book/book 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T18:07:16.192Z"}
+error: uncaughtException: wishlistRoute is not defined
+ReferenceError: wishlistRoute is not defined
+    at routes (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\routes\/index.js:31:27)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\/index.js:34:32)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 04 2022 08:02:43 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":35349},"process":{"argv":["node","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18555589,"external":20665890,"heapTotal":95289344,"heapUsed":66131072,"rss":129503232},"pid":8268,"uid":null,"version":"v16.13.0"},"stack":"ReferenceError: wishlistRoute is not defined\n    at routes (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\routes\\/index.js:31:27)\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\/index.js:34:32)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-04T02:32:43.746Z","trace":[{"column":27,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\routes\\/index.js","function":"routes","line":31,"method":null,"native":false},{"column":32,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\/index.js","function":null,"line":34,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Cart validation failed: book.2._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+ValidationError: Cart validation failed: book.2._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:47:12)
+    at new EmbeddedDocument (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schema\documentarray.js:116:17)
+    at CoreDocumentArray._cast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:109:12)
+    at CoreDocumentArray._mapCast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:272:17)
+    at Arguments.map (<anonymous>)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:666:21)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:210:28)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:97:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21) {"date":"Fri Feb 04 2022 08:33:40 GMT+0530 (India Standard Time)","error":{"_message":"Cart validation failed","errors":{"book.2._id":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"newBook\"","value":"newBook","valueType":"string"}},"message":"Cart validation failed: book.2._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"ValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":37205},"process":{"argv":["node","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19210702,"external":21881893,"heapTotal":97386496,"heapUsed":74425040,"rss":131624960},"pid":12832,"uid":null,"version":"v16.13.0"},"stack":"ValidationError: Cart validation failed: book.2._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"\n    at model.Document.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:2782:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:298:29)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1349:12)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1058:16)\n    at EmbeddedDocument.Document (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:148:12)\n    at EmbeddedDocument [as constructor] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:47:12)\n    at new EmbeddedDocument (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js:116:17)\n    at CoreDocumentArray._cast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:109:12)\n    at CoreDocumentArray._mapCast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:272:17)\n    at Arguments.map (<anonymous>)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:666:21)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:210:28)\n    at _callee$ (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js:97:24)\n    at tryCatch (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)","timestamp":"2022-02-04T03:03:40.233Z","trace":[{"column":32,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.invalidate","line":2782,"method":"invalidate","native":false},{"column":29,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument.invalidate","line":298,"method":"invalidate","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1349,"method":"$set","native":false},{"column":16,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1058,"method":"$set","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.Document","line":148,"method":"Document","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument [as constructor]","line":47,"method":null,"native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js","function":"new EmbeddedDocument","line":116,"method":null,"native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray._cast","line":109,"method":"_cast","native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray._mapCast","line":272,"method":"_mapCast","native":false},{"column":null,"file":null,"function":"Arguments.map","line":null,"method":"map","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray.push","line":666,"method":"push","native":false},{"column":28,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray.push","line":210,"method":"push","native":false},{"column":24,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js","function":"_callee$","line":97,"method":null,"native":false},{"column":40,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"tryCatch","line":63,"method":null,"native":false},{"column":22,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.invoke [as _invoke]","line":294,"method":"invoke [as _invoke]","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.next","line":119,"method":"next","native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: done is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:106:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:04:43.955Z"}
+error: 
+    status - 500 
+    message - ReferenceError: checkCartCart is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:15:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:20:36.971Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:86:25)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:27:10.491Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ bookId: undefined }" (type Object) at path "_id" for model "Cart"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:31:53.595Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '0')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:68:21)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:34:14.932Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'filter')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:75:51)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:53:02.492Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '0')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:103:19)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T04:19:20.983Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'bookId')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:76:39)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T04:19:50.855Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:86:55)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T04:25:03.863Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '61fc09ee7f10df0aa05586a7', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T04:27:47.253Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.1.quantity: Cast to Number failed for value "NaN" (type number) at path "quantity"
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:47:12)
+    at new EmbeddedDocument (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schema\documentarray.js:116:17)
+    at CoreDocumentArray._cast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:109:12)
+    at CoreDocumentArray._mapCast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:272:17)
+    at Arguments.map (<anonymous>)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:666:21)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:210:28)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:108:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T04:30:58.380Z"}

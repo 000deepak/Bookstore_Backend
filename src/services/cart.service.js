@@ -8,6 +8,7 @@
 
 import Cart from '../models/cart.model';
 import Book from '../models/book.model';
+import { get } from 'mongoose';
 
 //-----------------------------------------------cart
 
@@ -20,55 +21,160 @@ export const addCart = async (body) => {
     data: ''
   };
 
-  let book = { bookId: body.bookId };
+  console.log(body.book);
+  console.log(body.book[0].bookId, 'bookId');
+  console.log(body.book[0].quantity, 'quantity');
 
-  let foundBook = await Cart.findOne({
-    userId: body.data.userId,
-    bookId: body.bookId
-  });
+  /* 1.check for book availibilty */
+  let checkBook = await Book.findOne({ _id: body.book[0].bookId });
 
-  console.log(body.data.userId, body.bookId);
+  console.log(checkBook, 'availability');
 
-  console.log(foundBook, 'found book');
+  if (checkBook) {
+    /* 2.check if cart for user is present else create */
+    let checkCart = await Cart.findOne({ userId: body.data.userId });
 
-  if (!foundBook) {
-    let newItem = new Cart({
-      userId: body.data.userId,
-      bookId: body.bookId,
-      quantity: body.quantity,
-      isPurchased: body.isPurchased
-    });
+    console.log(checkCart, 'checkcart');
 
-    console.log(newItem, 'new Item');
+    if (!checkCart) {
+      //creating new cart
+      let newItem = new Cart({
+        userId: body.data.userId,
+        book: [
+          { bookId: body.book[0].bookId, quantity: body.book[0].quantity }
+        ],
+        isPurchased: body.isPurchased
+      });
 
-    const data = await Cart.create(newItem);
+      console.log(newItem, 'new Item');
 
-    response.status = 201;
-    response.success = true;
-    response.message = 'Book Added to Cart';
-    response.data = data;
-    return response;
-  } else {
-    console.log(foundBook.quantity);
+      const data = newItem.save();
 
-    foundBook.quantity = foundBook.quantity + 1;
+      response.status = 201;
+      response.success = true;
+      response.message = 'Book Added to Cart';
+      response.data = data;
+      return response;
+    } else {
+      //cart exists now check if cart contains book
 
-    console.log(foundBook.quantity);
+      // console.log(body.objectId, 'object id');
 
-    const data = await Cart.findByIdAndUpdate(
-      { _id: foundBook._id },
-      foundBook,
-      {
-        new: true
+      // let foundBook = await Cart.findOne({
+      //   userId: body.data.userId,
+      //   bookId: body.bookId
+      // });
+
+      // console.log(body.data.userId, body.bookId);
+      // console.log(foundBook, 'found book in cart');
+
+      // if (foundBook) {
+      /* 3.If cart contains book increase quantity*/
+
+      // console.log(foundBook, 'inside updating quantity');
+      // console.log(foundBook.book, 'inside updating array');
+      // console.log(foundBook.book[0].bookId, 'inside updating array bookid');
+
+      // console.log(x.bookId, body.book[0].bookId, 'inside updating array filter');
+      const getArrayBook = await checkCart.book.filter(
+        (x) => x.bookId === body.book[0].bookId
+      );
+
+      console.log(getArrayBook, 'got book from cart');
+
+      if (getArrayBook.length!=0) {
+        const Total_Quantity = (await getArrayBook[0].quantity) + body.quantity;
+
+        // remove the exsisting book in cart
+        await Cart.updateOne(
+          {
+            userId: body.data.userId
+          },
+          {
+            $pull: {
+              book: {
+                bookId: body.book[0].bookId
+              }
+            }
+          }
+        );
+
+        // insert the new book in cart
+        const updatedBook = {
+          bookId: body.book[0].bookId,
+          quantity: Total_Quantity
+        };
+
+        checkCart.book.push(updatedBook);
+
+        console.log(checkCart, 'push result');
+
+        await checkCart.save();
+
+        // const updated = await Cart.findOneAndUpdate(
+        //   {
+        //     userId: body.data.userId
+        //   },
+        //   {
+        //     $addToSet: {
+        //       book: Updated_Book_In_Cart
+        //     }
+        //   }
+        // );
+
+        // console.log(updated);
+
+        //if book present update
+        // foundBook.book[0].quantity = foundBook.book[0].quantity + 1;
+
+        // console.log(foundBook.book[0].quantity);
+
+        // const data = await Cart.findByIdAndUpdate(
+        //   { _id: foundBook._id },
+        //   foundBook,
+        //   {
+        //     new: true
+        //   }
+        // );
+
+        response.status = 200;
+        response.success = false;
+        response.message = 'Cart Updated';
+        response.data = updated;
+        return response;
+      } else {
+        /* 4.cart doesnt contain book just pash book to book array & save*/
+        console.log('else');
+
+        const newBook = {
+          bookId: body.book[0].bookId,
+          quantity: body.book[0].quantity
+        };
+
+        console.log(newBook, 'new bok');
+
+        // let userCart = await Cart.findById(checkCart._id);
+
+        // console.log(userCart, 'Curretn UserCart');
+
+        checkCart.book.push(newBook);
+
+        console.log(checkCart, 'push result');
+
+        await checkCart.save();
+
+        response.status = 200;
+        response.success = false;
+        response.message = 'Book Added ';
+        response.data = ' ';
+        return response;
       }
-    );
-
-    console.log('else');
-
+    }
+  } else {
     response.status = 200;
     response.success = false;
-    response.message = 'Cart Updated';
-    response.data = data;
+    response.message = 'Book Not Available';
+    response.data = ' ';
     return response;
   }
 };
@@ -161,7 +267,7 @@ export const updateCart = async (bookId, body) => {
 };
 
 //remove single Book
-export const removeCart = async (bookId,body) => {
+export const removeCart = async (bookId, body) => {
   let response = {
     status: 201,
     success: true,
@@ -177,7 +283,6 @@ export const removeCart = async (bookId,body) => {
 
   if (foundBook) {
     if (foundBook.quantity > 0) {
-
       foundBook.quantity = foundBook.quantity - 1;
 
       const data = await Cart.findByIdAndUpdate(
@@ -195,13 +300,9 @@ export const removeCart = async (bookId,body) => {
 
       // _id: foundBook._id, userId: body.data.userId,
     } else if (foundBook.quantity == 0) {
-      const data = await Cart.findByIdAndDelete(
-        {  bookId: bookId },
-        foundBook,
-        {
-          new: true
-        }
-      );
+      const data = await Cart.findByIdAndDelete({ bookId: bookId }, foundBook, {
+        new: true
+      });
       response.status = 200;
       response.success = true;
       response.message = 'Cart Updated';

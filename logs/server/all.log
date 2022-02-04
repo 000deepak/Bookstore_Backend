@@ -2,3 +2,766 @@ info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T1
 info: Connected to the database. {"timestamp":"2022-02-03T13:51:02.080Z"}
 info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T13:51:16.185Z"}
 info: Connected to the database. {"timestamp":"2022-02-03T13:51:16.223Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T13:52:06.658Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T13:52:06.690Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T14:11:10.366Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T14:11:10.395Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T14:12:18.299Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T14:12:18.331Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T14:13:22.641Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T14:13:22.675Z"}
+error: 
+    status - 500 
+    message - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:27:20)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addCart (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:15:21)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\controllers\/cart.controller.js:18:36)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T14:13:24.726Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T14:14:01.922Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T14:14:01.960Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T14:16:22.806Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T14:16:22.840Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T14:18:38.166Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T14:18:38.201Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T14:19:35.218Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T14:19:35.257Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T14:19:46.555Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T14:19:46.584Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T14:19:57.428Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T14:19:57.461Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T14:20:36.102Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T14:20:36.135Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T14:32:03.240Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T14:32:03.276Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T14:48:10.809Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T14:48:10.847Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:01:52.133Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:01:52.178Z"}
+error: 
+    status - 500 
+    message - ReferenceError: checkCart is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:15:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:02:00.823Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:02:20.713Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:02:20.760Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:06:04.751Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:06:04.794Z"}
+error: 
+    status - 500 
+    message - ReferenceError: checkcart is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:31:27)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:06:08.112Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:06:35.265Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:06:35.304Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:15:25.535Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:15:25.574Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:63:29)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:17:15.387Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:21:15.424Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:21:15.465Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'push')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:92:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:21:18.176Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:25:29.616Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:25:29.655Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:42:40.056Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:42:40.098Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:42:51.720Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:42:51.758Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:48:25.442Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:48:25.482Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:108:21)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:48:52.533Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:49:23.008Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:49:23.056Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:50:09.319Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:50:09.359Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:51:28.867Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:51:28.916Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:51:45.068Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:51:45.108Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'book')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:23:23)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addCart (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:15:21)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\controllers\/cart.controller.js:18:36)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:51:46.065Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:52:30.305Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:52:30.349Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:53:26.926Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:53:26.966Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'book')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:23:31)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addCart (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:15:21)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\controllers\/cart.controller.js:18:36)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:53:28.089Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:53:58.904Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:53:58.943Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:55:07.234Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:55:07.273Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:55:47.851Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:55:47.892Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:55:59.250Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:55:59.290Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:57:50.109Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:57:50.147Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T15:59:26.958Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T15:59:26.990Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T16:37:55.907Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:37:55.947Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T16:44:57.544Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:44:57.592Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:69:56)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:45:25.827Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T16:48:49.344Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:48:49.384Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:66:39)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:48:57.208Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T16:49:19.075Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:49:19.114Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:66:39)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:49:41.139Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T16:50:16.325Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:50:16.375Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:66:39)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:50:19.335Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T16:51:59.289Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:51:59.329Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:70:56)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:52:25.171Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T16:52:53.396Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:52:53.440Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:70:56)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:52:56.576Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T16:56:19.497Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:56:19.539Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T17:05:07.143Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T17:05:07.180Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T17:06:13.144Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T17:06:13.185Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T17:07:36.787Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T17:07:36.830Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:104:25)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T17:07:39.747Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T17:09:54.715Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T17:09:54.751Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:104:25)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T17:09:57.592Z"}
+error: uncaughtException: Cart validation failed: book.3._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+ValidationError: Cart validation failed: book.3._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:47:12)
+    at new EmbeddedDocument (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schema\documentarray.js:116:17)
+    at CoreDocumentArray._cast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:109:12)
+    at CoreDocumentArray._mapCast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:272:17)
+    at Arguments.map (<anonymous>)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:666:21)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:210:28)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:95:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21) {"date":"Thu Feb 03 2022 22:39:57 GMT+0530 (India Standard Time)","error":{"_message":"Cart validation failed","errors":{"book.3._id":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"newBook\"","value":"newBook","valueType":"string"}},"message":"Cart validation failed: book.3._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"ValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1583},"process":{"argv":["node","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18606579,"external":20958125,"heapTotal":96600064,"heapUsed":65870472,"rss":129470464},"pid":1336,"uid":null,"version":"v16.13.0"},"stack":"ValidationError: Cart validation failed: book.3._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"\n    at model.Document.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:2782:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:298:29)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1349:12)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1058:16)\n    at EmbeddedDocument.Document (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:148:12)\n    at EmbeddedDocument [as constructor] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:47:12)\n    at new EmbeddedDocument (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js:116:17)\n    at CoreDocumentArray._cast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:109:12)\n    at CoreDocumentArray._mapCast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:272:17)\n    at Arguments.map (<anonymous>)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:666:21)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:210:28)\n    at _callee$ (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js:95:24)\n    at tryCatch (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)","timestamp":"2022-02-03T17:09:57.668Z","trace":[{"column":32,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.invalidate","line":2782,"method":"invalidate","native":false},{"column":29,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument.invalidate","line":298,"method":"invalidate","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1349,"method":"$set","native":false},{"column":16,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1058,"method":"$set","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.Document","line":148,"method":"Document","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument [as constructor]","line":47,"method":null,"native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js","function":"new EmbeddedDocument","line":116,"method":null,"native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray._cast","line":109,"method":"_cast","native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray._mapCast","line":272,"method":"_mapCast","native":false},{"column":null,"file":null,"function":"Arguments.map","line":null,"method":"map","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray.push","line":666,"method":"push","native":false},{"column":28,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray.push","line":210,"method":"push","native":false},{"column":24,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js","function":"_callee$","line":95,"method":null,"native":false},{"column":40,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"tryCatch","line":63,"method":null,"native":false},{"column":22,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.invoke [as _invoke]","line":294,"method":"invoke [as _invoke]","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.next","line":119,"method":"next","native":false}]}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T17:10:22.514Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T17:10:22.554Z"}
+error: uncaughtException: Cart validation failed: book.3._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+ValidationError: Cart validation failed: book.3._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:47:12)
+    at new EmbeddedDocument (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schema\documentarray.js:116:17)
+    at CoreDocumentArray._cast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:109:12)
+    at CoreDocumentArray._mapCast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:272:17)
+    at Arguments.map (<anonymous>)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:666:21)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:210:28)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:95:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21) {"date":"Thu Feb 03 2022 22:40:31 GMT+0530 (India Standard Time)","error":{"_message":"Cart validation failed","errors":{"book.3._id":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"newBook\"","value":"newBook","valueType":"string"}},"message":"Cart validation failed: book.3._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"ValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1616},"process":{"argv":["node","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18631155,"external":20982698,"heapTotal":94756864,"heapUsed":64085784,"rss":128208896},"pid":4464,"uid":null,"version":"v16.13.0"},"stack":"ValidationError: Cart validation failed: book.3._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"\n    at model.Document.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:2782:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:298:29)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1349:12)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1058:16)\n    at EmbeddedDocument.Document (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:148:12)\n    at EmbeddedDocument [as constructor] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:47:12)\n    at new EmbeddedDocument (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js:116:17)\n    at CoreDocumentArray._cast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:109:12)\n    at CoreDocumentArray._mapCast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:272:17)\n    at Arguments.map (<anonymous>)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:666:21)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:210:28)\n    at _callee$ (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js:95:24)\n    at tryCatch (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)","timestamp":"2022-02-03T17:10:31.261Z","trace":[{"column":32,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.invalidate","line":2782,"method":"invalidate","native":false},{"column":29,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument.invalidate","line":298,"method":"invalidate","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1349,"method":"$set","native":false},{"column":16,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1058,"method":"$set","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.Document","line":148,"method":"Document","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument [as constructor]","line":47,"method":null,"native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js","function":"new EmbeddedDocument","line":116,"method":null,"native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray._cast","line":109,"method":"_cast","native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray._mapCast","line":272,"method":"_mapCast","native":false},{"column":null,"file":null,"function":"Arguments.map","line":null,"method":"map","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray.push","line":666,"method":"push","native":false},{"column":28,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray.push","line":210,"method":"push","native":false},{"column":24,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js","function":"_callee$","line":95,"method":null,"native":false},{"column":40,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"tryCatch","line":63,"method":null,"native":false},{"column":22,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.invoke [as _invoke]","line":294,"method":"invoke [as _invoke]","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.next","line":119,"method":"next","native":false}]}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T17:11:37.559Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T17:11:37.597Z"}
+error: uncaughtException: Cart validation failed: book.2._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+ValidationError: Cart validation failed: book.2._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:47:12)
+    at new EmbeddedDocument (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schema\documentarray.js:116:17)
+    at CoreDocumentArray._cast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:109:12)
+    at CoreDocumentArray._mapCast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:272:17)
+    at Arguments.map (<anonymous>)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:666:21)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:210:28)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:95:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21) {"date":"Thu Feb 03 2022 22:42:39 GMT+0530 (India Standard Time)","error":{"_message":"Cart validation failed","errors":{"book.2._id":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"newBook\"","value":"newBook","valueType":"string"}},"message":"Cart validation failed: book.2._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"ValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1744},"process":{"argv":["node","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18467014,"external":20031711,"heapTotal":48357376,"heapUsed":45423704,"rss":81649664},"pid":2488,"uid":null,"version":"v16.13.0"},"stack":"ValidationError: Cart validation failed: book.2._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"\n    at model.Document.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:2782:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:298:29)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1349:12)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1058:16)\n    at EmbeddedDocument.Document (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:148:12)\n    at EmbeddedDocument [as constructor] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:47:12)\n    at new EmbeddedDocument (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js:116:17)\n    at CoreDocumentArray._cast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:109:12)\n    at CoreDocumentArray._mapCast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:272:17)\n    at Arguments.map (<anonymous>)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:666:21)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:210:28)\n    at _callee$ (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js:95:24)\n    at tryCatch (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)","timestamp":"2022-02-03T17:12:39.311Z","trace":[{"column":32,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.invalidate","line":2782,"method":"invalidate","native":false},{"column":29,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument.invalidate","line":298,"method":"invalidate","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1349,"method":"$set","native":false},{"column":16,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1058,"method":"$set","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.Document","line":148,"method":"Document","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument [as constructor]","line":47,"method":null,"native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js","function":"new EmbeddedDocument","line":116,"method":null,"native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray._cast","line":109,"method":"_cast","native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray._mapCast","line":272,"method":"_mapCast","native":false},{"column":null,"file":null,"function":"Arguments.map","line":null,"method":"map","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray.push","line":666,"method":"push","native":false},{"column":28,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray.push","line":210,"method":"push","native":false},{"column":24,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js","function":"_callee$","line":95,"method":null,"native":false},{"column":40,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"tryCatch","line":63,"method":null,"native":false},{"column":22,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.invoke [as _invoke]","line":294,"method":"invoke [as _invoke]","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.next","line":119,"method":"next","native":false}]}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T17:19:21.248Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T17:19:21.291Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T17:20:28.196Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T17:20:28.232Z"}
+error: 
+    status - 500 
+    message - TypeError: _cart.default.save is not a function
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:99:14)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T17:20:31.683Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T17:21:39.246Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T17:21:39.284Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T17:23:09.494Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T17:23:09.532Z"}
+error: uncaughtException: Cart validation failed: book.2._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+ValidationError: Cart validation failed: book.2._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:47:12)
+    at new EmbeddedDocument (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schema\documentarray.js:116:17)
+    at CoreDocumentArray._cast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:109:12)
+    at CoreDocumentArray._mapCast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:272:17)
+    at Arguments.map (<anonymous>)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:666:21)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:210:28)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:95:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21) {"date":"Thu Feb 03 2022 22:53:12 GMT+0530 (India Standard Time)","error":{"_message":"Cart validation failed","errors":{"book.2._id":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"newBook\"","value":"newBook","valueType":"string"}},"message":"Cart validation failed: book.2._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"ValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2377},"process":{"argv":["node","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18647488,"external":20999076,"heapTotal":94494720,"heapUsed":63865896,"rss":127729664},"pid":4664,"uid":null,"version":"v16.13.0"},"stack":"ValidationError: Cart validation failed: book.2._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"\n    at model.Document.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:2782:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:298:29)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1349:12)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1058:16)\n    at EmbeddedDocument.Document (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:148:12)\n    at EmbeddedDocument [as constructor] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:47:12)\n    at new EmbeddedDocument (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js:116:17)\n    at CoreDocumentArray._cast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:109:12)\n    at CoreDocumentArray._mapCast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:272:17)\n    at Arguments.map (<anonymous>)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:666:21)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:210:28)\n    at _callee$ (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js:95:24)\n    at tryCatch (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)","timestamp":"2022-02-03T17:23:12.154Z","trace":[{"column":32,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.invalidate","line":2782,"method":"invalidate","native":false},{"column":29,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument.invalidate","line":298,"method":"invalidate","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1349,"method":"$set","native":false},{"column":16,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1058,"method":"$set","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.Document","line":148,"method":"Document","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument [as constructor]","line":47,"method":null,"native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js","function":"new EmbeddedDocument","line":116,"method":null,"native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray._cast","line":109,"method":"_cast","native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray._mapCast","line":272,"method":"_mapCast","native":false},{"column":null,"file":null,"function":"Arguments.map","line":null,"method":"map","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray.push","line":666,"method":"push","native":false},{"column":28,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray.push","line":210,"method":"push","native":false},{"column":24,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js","function":"_callee$","line":95,"method":null,"native":false},{"column":40,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"tryCatch","line":63,"method":null,"native":false},{"column":22,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.invoke [as _invoke]","line":294,"method":"invoke [as _invoke]","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.next","line":119,"method":"next","native":false}]}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T18:06:06.051Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T18:06:06.085Z"}
+error: 
+    status - 500 
+    message - ReferenceError: cartService is not defined
+    at _callee2$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\controllers\/book.controller.js:32:25)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getBooks (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\controllers\/book.controller.js:32:22)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/book/book 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T18:07:16.192Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-03T18:07:59.269Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T18:07:59.341Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T02:23:45.944Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:23:45.993Z"}
+error: uncaughtException: wishlistRoute is not defined
+ReferenceError: wishlistRoute is not defined
+    at routes (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\routes\/index.js:31:27)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\/index.js:34:32)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 04 2022 08:02:43 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":35349},"process":{"argv":["node","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18555589,"external":20665890,"heapTotal":95289344,"heapUsed":66131072,"rss":129503232},"pid":8268,"uid":null,"version":"v16.13.0"},"stack":"ReferenceError: wishlistRoute is not defined\n    at routes (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\routes\\/index.js:31:27)\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\/index.js:34:32)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-04T02:32:43.746Z","trace":[{"column":27,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\routes\\/index.js","function":"routes","line":31,"method":null,"native":false},{"column":32,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\/index.js","function":null,"line":34,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T02:33:25.519Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:33:25.566Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T02:57:57.696Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:57:57.738Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T02:58:55.425Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T02:58:55.473Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:00:15.633Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:00:15.679Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:00:30.713Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:00:30.767Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:01:07.744Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:01:07.790Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:03:36.456Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:03:36.494Z"}
+error: uncaughtException: Cart validation failed: book.2._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+ValidationError: Cart validation failed: book.2._id: Cast to ObjectId failed for value "newBook" (type string) at path "_id"
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:47:12)
+    at new EmbeddedDocument (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schema\documentarray.js:116:17)
+    at CoreDocumentArray._cast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:109:12)
+    at CoreDocumentArray._mapCast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:272:17)
+    at Arguments.map (<anonymous>)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:666:21)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:210:28)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:97:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21) {"date":"Fri Feb 04 2022 08:33:40 GMT+0530 (India Standard Time)","error":{"_message":"Cart validation failed","errors":{"book.2._id":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"newBook\"","value":"newBook","valueType":"string"}},"message":"Cart validation failed: book.2._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"","name":"ValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":37205},"process":{"argv":["node","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19210702,"external":21881893,"heapTotal":97386496,"heapUsed":74425040,"rss":131624960},"pid":12832,"uid":null,"version":"v16.13.0"},"stack":"ValidationError: Cart validation failed: book.2._id: Cast to ObjectId failed for value \"newBook\" (type string) at path \"_id\"\n    at model.Document.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:2782:32)\n    at EmbeddedDocument.invalidate (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:298:29)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1349:12)\n    at EmbeddedDocument.$set (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:1058:16)\n    at EmbeddedDocument.Document (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js:148:12)\n    at EmbeddedDocument [as constructor] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js:47:12)\n    at new EmbeddedDocument (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js:116:17)\n    at CoreDocumentArray._cast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:109:12)\n    at CoreDocumentArray._mapCast (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:272:17)\n    at Arguments.map (<anonymous>)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js:666:21)\n    at CoreDocumentArray.push (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js:210:28)\n    at _callee$ (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js:97:24)\n    at tryCatch (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)","timestamp":"2022-02-04T03:03:40.233Z","trace":[{"column":32,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.invalidate","line":2782,"method":"invalidate","native":false},{"column":29,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument.invalidate","line":298,"method":"invalidate","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1349,"method":"$set","native":false},{"column":16,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.$set","line":1058,"method":"$set","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\document.js","function":"EmbeddedDocument.Document","line":148,"method":"Document","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\embedded.js","function":"EmbeddedDocument [as constructor]","line":47,"method":null,"native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\schema\\documentarray.js","function":"new EmbeddedDocument","line":116,"method":null,"native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray._cast","line":109,"method":"_cast","native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray._mapCast","line":272,"method":"_mapCast","native":false},{"column":null,"file":null,"function":"Arguments.map","line":null,"method":"map","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\core_array.js","function":"CoreDocumentArray.push","line":666,"method":"push","native":false},{"column":28,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\types\\documentarray.js","function":"CoreDocumentArray.push","line":210,"method":"push","native":false},{"column":24,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\/cart.service.js","function":"_callee$","line":97,"method":null,"native":false},{"column":40,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"tryCatch","line":63,"method":null,"native":false},{"column":22,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.invoke [as _invoke]","line":294,"method":"invoke [as _invoke]","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.next","line":119,"method":"next","native":false}]}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:04:42.246Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:04:42.283Z"}
+error: 
+    status - 500 
+    message - ReferenceError: done is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:106:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:04:43.955Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:07:06.101Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:07:06.141Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:08:16.827Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:08:16.871Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:10:23.715Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:10:23.763Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:11:25.988Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:11:26.038Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:12:01.446Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:12:01.484Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:19:04.806Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:19:04.843Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:20:30.525Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:20:30.557Z"}
+error: 
+    status - 500 
+    message - ReferenceError: checkCartCart is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:15:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:20:36.971Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:22:46.088Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:22:46.127Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:23:53.631Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:23:53.681Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:27:07.903Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:27:07.940Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:86:25)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:27:10.491Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:27:36.600Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:27:36.639Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:31:50.856Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:31:50.893Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ bookId: undefined }" (type Object) at path "_id" for model "Cart"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:31:53.595Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:34:10.271Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:34:10.306Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '0')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:68:21)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:34:14.932Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:37:12.873Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:37:12.916Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:39:11.170Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:39:11.225Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:41:47.449Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:41:47.485Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:42:38.598Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:42:38.636Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:43:16.063Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:43:16.099Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:52:28.362Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:52:28.395Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'filter')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:75:51)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T03:53:02.492Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:53:34.121Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:53:34.160Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:57:50.576Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:57:50.610Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T03:58:38.872Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T03:58:38.905Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:01:41.719Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:01:41.753Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:04:27.843Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:04:27.876Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:05:46.191Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:05:46.227Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:06:17.099Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:06:17.133Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:07:24.619Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:07:24.654Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:08:21.777Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:08:21.816Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:09:54.160Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:09:54.192Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:10:36.977Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:10:37.012Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:12:08.961Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:12:08.996Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:12:56.695Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:12:56.735Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:13:37.358Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:13:37.393Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:18:36.333Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:18:36.371Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:18:45.580Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:18:45.614Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '0')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:103:19)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T04:19:20.983Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:19:49.603Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:19:49.639Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'bookId')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:76:39)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T04:19:50.855Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:25:00.199Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:25:00.233Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:86:55)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T04:25:03.863Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:26:16.534Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:26:16.568Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:27:45.673Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:27:45.705Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '61fc09ee7f10df0aa05586a7', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T04:27:47.253Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T04:30:37.072Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T04:30:37.121Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.1.quantity: Cast to Number failed for value "NaN" (type number) at path "quantity"
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\embedded.js:47:12)
+    at new EmbeddedDocument (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schema\documentarray.js:116:17)
+    at CoreDocumentArray._cast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:109:12)
+    at CoreDocumentArray._mapCast (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:272:17)
+    at Arguments.map (<anonymous>)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\core_array.js:666:21)
+    at CoreDocumentArray.push (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\types\documentarray.js:210:28)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:108:24)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21) 
+    url - /api/v1/cart/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T04:30:58.380Z"}

@@ -16,4 +16,7 @@ const router = express.Router();
 //route to add book
 router.post('/addbook', Validator.bookValidator, bookController.newBook);
 
+//route to add book
+router.get('/book', bookController.getBooks);
+
 export default router;

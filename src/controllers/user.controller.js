@@ -39,18 +39,3 @@ export const signin = async (req, res, next) => {
     next(error);
   }
 };
-
-/**
- * Controller to forgoot pasword link
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
-export const verify = async (req, res, next) => {
-  try {
-    const data = await userService.verify(req.body);
-    res.status(data.status).json(data);
-  } catch (error) {
-    next(error);
-  }
-};

@@ -12,6 +12,7 @@ import userRoute from './user.route';
 import cartRoute from './cart.route';
 import customerRoute from './customer.route';
 import orderRoute from './order.route';
+import wishlistRoute from "./wishlist.route"
 
 const router = express.Router();
 
@@ -27,6 +28,7 @@ const routes = () => {
   router.use('/book', bookRoute);
   router.use('/user', userRoute);
   router.use('/cart', cartRoute);
+  router.use('/wishlist', wishlistRoute);
   router.use('/customer', customerRoute);
   router.use('/order', orderRoute);
 

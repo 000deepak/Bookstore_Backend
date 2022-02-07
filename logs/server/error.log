@@ -1127,3 +1127,218 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-02-04T08:14:50.402Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:23:15)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addCart (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:13:21)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\controllers\/cart.controller.js:18:36)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/cart/cart/61fb6ca2a096bf13884a654f 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T08:17:38.680Z"}
+error: 
+    status - 500 
+    message - ReferenceError: getArryBook is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:67:23)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/61fb6ca2a096bf13884a654f 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T08:23:46.992Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bookId is not defined
+    at _callee3$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:214:54)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/update/61fc09ee7f10df0aa05586a7 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T08:30:12.364Z"}
+error: uncaughtException: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\HP\Desktop\Project\Bookstore\Backend\build\index.js
+Error: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\HP\Desktop\Project\Bookstore\Backend\build\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\build\index.js:28:39)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 04 2022 19:06:36 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\build\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":29354},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\build\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18704871,"external":26038756,"heapTotal":66527232,"heapUsed":38558424,"rss":85684224},"pid":5672,"uid":null,"version":"v16.13.0"},"stack":"Error: Cannot find module './swagger/swagger.json'\nRequire stack:\n- C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\build\\index.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\build\\index.js:28:39)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-04T13:36:36.433Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":933,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":39,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\build\\index.js","function":null,"line":28,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/user/signin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-07T02:35:45.944Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/user/signin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-07T02:41:31.423Z"}
+error: 
+    status - 500 
+    message - ReferenceError: hash is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/user.service.js:32:17)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T02:42:28.181Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/user/signin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T10:42:21.710Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\/index.js:46:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Mon Feb 07 2022 18:32:49 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":110569},"process":{"argv":["node","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19316662,"external":22825930,"heapTotal":97124352,"heapUsed":76106928,"rss":130957312},"pid":864,"uid":null,"version":"v16.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::5000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\/index.js:46:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-02-07T13:02:49.903Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\/index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\/index.js:46:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Mon Feb 07 2022 19:13:37 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":4000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":113016},"process":{"argv":["node","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19226052,"external":22445335,"heapTotal":96600064,"heapUsed":74148896,"rss":130453504},"pid":1960,"uid":null,"version":"v16.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\/index.js:46:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-02-07T13:43:37.107Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\/index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/wishlist/undefined 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-07T14:17:27.956Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/wishlist/6200f7f29fcbc61d6c4ef77a 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-07T14:18:27.751Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/wishlist/6200f7f29fcbc61d6c4ef77a 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-07T14:19:27.656Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/wishlist 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-07T17:50:33.089Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/wishlist 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-07T17:50:39.054Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '6200f7e99fcbc61d6c4ef777', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/6200f7e99fcbc61d6c4ef777 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T19:24:04.106Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '6200f7e99fcbc61d6c4ef777', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/6200f7e99fcbc61d6c4ef777 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T19:29:39.993Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '6200f7e99fcbc61d6c4ef777', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/6200f7e99fcbc61d6c4ef777 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T19:39:05.169Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '6200f7e99fcbc61d6c4ef777', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/6200f7e99fcbc61d6c4ef777 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T19:42:18.949Z"}

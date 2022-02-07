@@ -108,12 +108,14 @@ export const getWishlist = async (req) => {
     data: ''
   };
 
-  let checkWishlist = Wishlist.find({ userId: req.body.data.userId });
+  console.log(req.body.data.userId);
+
+  let checkWishlist = Wishlist.findOne({ userId: req.body.data.userId });
 
   if (checkWishlist) {
-    console.log('hi');
+    console.log(checkWishlist,'wishlist');
 
-    const data = await Wishlist.find({ userId: req.body.data.userId });
+    const data = await Wishlist.findOne({ userId: req.body.data.userId });
 
     response.status = 200;
     response.success = true;

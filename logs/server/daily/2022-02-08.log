@@ -1,0 +1,65 @@
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-07T19:24:02.685Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T19:24:02.729Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '6200f7e99fcbc61d6c4ef777', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/6200f7e99fcbc61d6c4ef777 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T19:24:04.106Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-07T19:29:37.868Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T19:29:37.908Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '6200f7e99fcbc61d6c4ef777', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/6200f7e99fcbc61d6c4ef777 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T19:29:39.993Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-07T19:32:26.656Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T19:32:26.691Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-07T19:34:25.642Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T19:34:25.696Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-07T19:34:38.208Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T19:34:38.244Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-07T19:34:54.838Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T19:34:54.878Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '6200f7e99fcbc61d6c4ef777', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/6200f7e99fcbc61d6c4ef777 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T19:39:05.169Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-07T19:39:55.252Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T19:39:55.285Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-07T19:42:15.721Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T19:42:15.762Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '6200f7e99fcbc61d6c4ef777', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/6200f7e99fcbc61d6c4ef777 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T19:42:18.949Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-07T19:45:27.759Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T19:45:27.798Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-07T19:46:25.377Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T19:46:25.430Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-07T19:46:38.861Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T19:46:38.899Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-07T19:51:35.451Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T19:51:35.490Z"}

@@ -19,6 +19,6 @@ router.post('/wishlist/:bookId', userAuth, wishlistController.newBook);
 router.get('/wishlist', userAuth, wishlistController.getWishlist);
 
 //remove from wishlist
-router.put('/remove/:bookId', userAuth, wishlistController.removeWishlist);
+router.put('/update/:bookId', userAuth, wishlistController.removeWishlist);
 
 export default router;

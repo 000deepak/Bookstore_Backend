@@ -920,3 +920,74 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-02-04T08:14:50.402Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T08:17:34.554Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:17:34.596Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:23:15)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addCart (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:13:21)
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\controllers\/cart.controller.js:18:36)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/cart/cart/61fb6ca2a096bf13884a654f 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T08:17:38.680Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T08:18:04.468Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:18:04.507Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T08:23:36.816Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:23:36.850Z"}
+error: 
+    status - 500 
+    message - ReferenceError: getArryBook is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:67:23)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/61fb6ca2a096bf13884a654f 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T08:23:46.992Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T08:24:24.491Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:24:24.523Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T08:25:22.417Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:25:22.451Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T08:26:02.137Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:26:02.173Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bookId is not defined
+    at _callee3$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\/cart.service.js:214:54)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/update/61fc09ee7f10df0aa05586a7 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-04T08:30:12.364Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T08:33:20.359Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:33:20.392Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T08:34:51.597Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T08:34:51.638Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T13:39:45.428Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T13:39:45.473Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-04T13:43:42.765Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T13:43:42.807Z"}

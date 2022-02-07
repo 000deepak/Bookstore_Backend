@@ -24,6 +24,7 @@ export const signup = async (body) => {
   let len = foundUser.length;
 
   if (len == 0) {
+    let hash = await bcrypt.hash(body.password, 8);
 
     let newUser = new User({
       firstName: body.firstName,

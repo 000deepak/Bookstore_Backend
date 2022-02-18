@@ -25,20 +25,12 @@ export const addCart = async (req) => {
     defaultQuantity = 1;
   }
 
-  console.log(req.params.bookId);
-  console.log(req.params.bookId, 'bookId');
-  console.log(defaultQuantity, 'quantity');
-
   /* 1.check for book availibilty */
   let checkBook = await Book.findOne({ _id: req.params.bookId });
-
-  console.log(checkBook, 'availability');
 
   if (checkBook) {
     /* 2.check if cart for user is present else create */
     let checkCart = await Cart.findOne({ userId: req.body.data.userId });
-
-    console.log(checkCart, 'checkcart is present or not');
 
     if (!checkCart) {
       //creating new cart
@@ -47,8 +39,6 @@ export const addCart = async (req) => {
         book: [{ bookId: req.params.bookId, quantity: defaultQuantity }],
         isPurchased: false
       });
-
-      console.log(newCart, 'new Cart created');
 
       const data = await newCart.save();
 
@@ -65,29 +55,34 @@ export const addCart = async (req) => {
         (x) => x.bookId === req.params.bookId
       );
 
-      console.log(getArrayBook, 'got book from cart');
-
       if (getArrayBook.length != 0) {
         const Total_Quantity =
           Number(getArrayBook[0].quantity) + Number(defaultQuantity);
 
-        console.log(getArrayBook[0].quantity, 'initial quantity');
-        console.log(defaultQuantity, 'added quantity');
-        console.log(Total_Quantity, 'total quantity');
-
-        // remove the exsisting book in cart
-        await Cart.updateOne(
-          { userId: req.body.data.userId },
-          {
-            $pull: {
-              book: {
-                bookId: req.params.bookId
+        if (Total_Quantity < 0) {
+          // remove the exsisting book in cart
+          await Cart.updateOne(
+            { userId: req.body.data.userId },
+            {
+              $pull: {
+                book: {
+                  bookId: req.params.bookId
+                }
               }
             }
-          }
-        );
-
-        if (Total_Quantity > 0) {
+          );
+        } else {
+          // remove the exsisting book in cart
+          await Cart.updateOne(
+            { userId: req.body.data.userId },
+            {
+              $pull: {
+                book: {
+                  bookId: req.params.bookId
+                }
+              }
+            }
+          );
           // insert the new book in cart
           const updatedBook = {
             bookId: req.params.bookId,
@@ -108,22 +103,17 @@ export const addCart = async (req) => {
 
         response.status = 200;
         response.success = false;
-        response.message = 'Cart Updated';
+        response.message = `Cart Updated hi ${Total_Quantity}`;
         return response;
       } else {
         /* 4.cart doesnt contain book just pash book to book array & save*/
-        console.log('else');
 
         const newBook = {
           bookId: req.params.bookId,
           quantity: defaultQuantity
         };
 
-        console.log(newBook, 'new bok');
-
         checkCart.book.push(newBook);
-
-        console.log(checkCart, 'push result');
 
         await checkCart.save();
 
@@ -135,7 +125,7 @@ export const addCart = async (req) => {
       }
     }
   } else {
-    response.status = 200;
+    response.status = 404;
     response.success = false;
     response.message = 'Book Not Available';
     response.data = ' ';
@@ -154,8 +144,6 @@ export const getCart = async (req) => {
 
   let checkCart = await Cart.findOne({ userId: req.body.data.userId });
 
-  console.log(checkCart, 'checkcart is present or not');
-
   if (checkCart) {
     response.status = 200;
     response.success = true;
@@ -163,7 +151,7 @@ export const getCart = async (req) => {
     response.data = checkCart;
     return response;
   } else {
-    response.status = 200;
+    response.status = 404;
     response.success = true;
     response.message = 'No Active Cart';
     response.data = ' ';
@@ -180,46 +168,118 @@ export const updateCart = async (req) => {
     data: ''
   };
 
-  let checkCart = await Cart.findOne({ userId: req.body.data.userId });
+  let defaultQuantity = 1;
+  // if (req.body.quantity > 0) {
+  //   defaultQuantity = req.body.quantity;
+  // } else if (req.body.quantity < 0) {
+    defaultQuantity = req.body.quantity;
+  // } else {
+  //   // defaultQuantity = 1;
+  // }
 
-  console.log(checkCart, 'checkcart is present or not');
+  /* 1.check for book availibilty */
+  let checkBook = await Book.findOne({ _id: req.params.bookId });
 
-  if (checkCart) {
-    //check if book is present in cart
-    const getArrayBook = await checkCart.book.filter(
-      (x) => x.bookId === req.params.bookId
-    );
-    console.log(getArrayBook, 'got book from cart');
+  if (checkBook) {
+    /* 2.check if cart for user is present else create */
+    let checkCart = await Cart.findOne({ userId: req.body.data.userId });
 
-    if (getArrayBook.length !== 0) {
-      let updatedCart = await Cart.updateOne(
-        {
-          userId: req.body.data.userId
-        },
-        {
-          $pull: {
-            book: {
-              bookId: req.params.bookId
-            }
-          }
-        }
-      );
-      response.status = 200;
+    if (!checkCart) {
+      //creating new cart
+      let newCart = new Cart({
+        userId: req.body.data.userId,
+        book: [{ bookId: req.params.bookId, quantity: defaultQuantity }],
+        isPurchased: false
+      });
+
+      const data = await newCart.save();
+
+      response.status = 201;
       response.success = true;
-      response.message = 'Cart Updated';
-      response.data = ' ';
+      response.message = 'Book Added to with new Cart';
+      response.data = data;
       return response;
     } else {
-      response.status = 404;
-      response.success = false;
-      response.message = 'Book Not Found In Cart';
-      response.data = ' ';
-      return response;
+      //cart present
+
+      //check if book is present in cart
+      const getArrayBook = await checkCart.book.filter(
+        (x) => x.bookId === req.params.bookId
+      );
+
+      if (getArrayBook.length != 0) {
+        // const Total_Quantity =
+          // Number(getArrayBook[0].quantity) + Number(defaultQuantity);
+
+        if (defaultQuantity <= 0) {
+          // remove the exsisting book in cart
+          await Cart.updateOne(
+            { userId: req.body.data.userId },
+            {
+              $pull: {
+                book: {
+                  bookId: req.params.bookId
+                }
+              }
+            }
+          );
+        } else {
+          // remove the exsisting book in cart
+          await Cart.updateOne(
+            { userId: req.body.data.userId },
+            {
+              $pull: {
+                book: {
+                  bookId: req.params.bookId
+                }
+              }
+            }
+          );
+          // insert the new book in cart
+          const updatedBook = {
+            bookId: req.params.bookId,
+            quantity: defaultQuantity
+          };
+
+          const updated = await Cart.findOneAndUpdate(
+            {
+              userId: req.body.data.userId
+            },
+            {
+              $addToSet: {
+                book: updatedBook
+              }
+            }
+          );
+        }
+
+        response.status = 200;
+        response.success = false;
+        response.message = 'Cart Updated ';
+        return response;
+      } else {
+        /* 4.cart doesnt contain book just pash book to book array & save*/
+
+        const newBook = {
+          bookId: req.params.bookId,
+          quantity: defaultQuantity
+        };
+
+        checkCart.book.push(newBook);
+
+        await checkCart.save();
+
+        response.status = 200;
+        response.success = false;
+        response.message = 'Book Added To Cart';
+        response.data = ' ';
+        return response;
+      }
     }
   } else {
     response.status = 404;
     response.success = false;
-    response.message = 'Cart Not Found';
+    response.message = 'Book Not Available';
     response.data = ' ';
     return response;
   }

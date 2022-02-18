@@ -63,3 +63,173 @@ info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-07T1
 info: Connected to the database. {"timestamp":"2022-02-07T19:46:38.899Z"}
 info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-07T19:51:35.451Z"}
 info: Connected to the database. {"timestamp":"2022-02-07T19:51:35.490Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-07T19:53:57.538Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T19:53:57.574Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/cart 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-07T20:17:13.020Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T02:27:23.459Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T02:27:23.497Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T02:47:48.491Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T02:47:48.535Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T02:49:25.745Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T02:49:25.805Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T02:54:55.802Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T02:54:55.848Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T02:55:47.306Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T02:55:47.341Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T02:56:33.496Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T02:56:33.531Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T02:58:35.578Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T02:58:35.616Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T03:03:36.481Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T03:03:36.513Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T03:07:50.028Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T03:07:50.060Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T03:08:20.270Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T03:08:20.299Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T03:10:57.521Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T03:10:57.568Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T03:11:08.493Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T03:11:08.522Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T03:11:20.803Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T03:11:20.834Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T03:11:38.974Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T03:11:39.008Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T03:12:18.658Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T03:12:18.689Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T03:12:35.196Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T03:12:35.226Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T03:13:01.934Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T03:13:01.966Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T03:14:55.460Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T03:14:55.491Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T03:16:00.220Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T03:16:00.253Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T03:16:27.155Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T03:16:27.184Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T03:17:20.653Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T03:17:20.681Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T03:18:25.587Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T03:18:25.617Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T07:48:56.743Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T07:48:56.781Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T07:53:29.399Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T07:53:29.430Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T08:11:01.335Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T08:11:01.369Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T08:11:55.273Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T08:11:55.308Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T08:12:43.919Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T08:12:43.954Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T08:13:53.975Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T08:13:54.016Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T08:14:30.900Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T08:14:30.930Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T08:14:50.847Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T08:14:50.889Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T08:15:05.806Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T08:15:05.850Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T08:17:45.487Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T08:17:45.536Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T08:24:54.884Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T08:24:54.929Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T10:25:23.343Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T10:25:23.402Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:00:26.764Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:00:26.810Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:06:34.150Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:06:34.206Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:06:58.624Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:06:58.682Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:11:05.191Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:11:05.241Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:11:56.213Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:11:56.268Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:19:58.908Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:19:58.965Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:21:14.332Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:21:14.369Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:22:10.914Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:22:10.964Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:22:40.529Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:22:40.582Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:26:30.656Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:26:30.691Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:30:16.804Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:30:16.855Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-08T11:34:37.367Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-08T11:34:37.372Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:38:48.986Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:38:49.039Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:44:15.729Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:44:15.763Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:46:16.212Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:46:16.245Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:47:01.865Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:47:01.901Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:48:17.310Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:48:17.343Z"}
+error: error in updating cart Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle {"stack":"TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle\n    at JSON.stringify (<anonymous>)\n    at stringify (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\express\\lib\\response.js:1128:12)\n    at ServerResponse.json (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\express\\lib\\response.js:260:14)\n    at _callee3$ (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\controllers\\/cart.controller.js:52:29)\n    at tryCatch (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n    at asyncGeneratorStep (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-02-08T11:48:23.337Z"}
+error: 
+    status - 500 
+    message - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\response.js:1128:12)
+    at ServerResponse.json (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\response.js:260:14)
+    at _callee3$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\controllers\/cart.controller.js:52:29)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/update/6200f7e99fcbc61d6c4ef777 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-08T11:48:23.344Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:49:13.730Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:49:13.760Z"}
+error: error in updating cart Cast to ObjectId failed for value "200f7e99fcbc61d6c4ef777" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"200f7e99fcbc61d6c4ef777\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"200f7e99fcbc61d6c4ef777\"","timestamp":"2022-02-08T11:49:33.601Z","value":"200f7e99fcbc61d6c4ef777","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "200f7e99fcbc61d6c4ef777" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/update/200f7e99fcbc61d6c4ef777 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T11:49:33.606Z"}
+error: error in updating cart Cast to ObjectId failed for value "200f7e99fcbc61d6c4ef777" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"200f7e99fcbc61d6c4ef777\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"200f7e99fcbc61d6c4ef777\"","timestamp":"2022-02-08T11:50:07.511Z","value":"200f7e99fcbc61d6c4ef777","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "200f7e99fcbc61d6c4ef777" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/update/200f7e99fcbc61d6c4ef777 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T11:50:07.516Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-08T11:55:55.909Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:55:55.940Z"}

@@ -10,21 +10,41 @@ import { Schema, model } from 'mongoose';
 
 const customerSchema = new Schema(
   {
-    addressType: {
+    fullName: {
       type: String,
-      default: "Home",
       required: true
     },
-    fullAddress: {
+    phoneNo: {
       type: String,
       required: true
+    },
+    pinCode: {
+      type: String,
+      required: true
+    },
+    address: {
+      type: String,
+      required: true
+    },
+    locality: {
+      type: String,
+      required: true
+    },
+    landmark: {
+      type: String
     },
     city: {
       type: String,
       required: true
     },
     state: {
-      type: String
+      type: String,
+ 
+    },
+    addressType: {
+      type: String,
+      default: 'Home',
+      required: true
     }
   },
   {

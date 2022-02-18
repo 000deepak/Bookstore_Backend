@@ -6,14 +6,14 @@
  * @since        1/2/2022
  */
 
- import express from 'express';
- import * as customerController from '../controllers/customer.controller';
- import * as Validator from '../validators/validator';
- 
- const router = express.Router();
- 
- //route to add book
- router.post('/userAddress', Validator.addressValidator, customerController.newAddress);
- 
- export default router;
- 
+import express from 'express';
+import * as customerController from '../controllers/customer.controller';
+import { userAuth } from '../middlewares/auth.middleware';
+import * as Validator from '../validators/validator';
+
+const router = express.Router();
+
+//route to add book
+router.post('/customer', userAuth, customerController.newAddress);
+
+export default router;

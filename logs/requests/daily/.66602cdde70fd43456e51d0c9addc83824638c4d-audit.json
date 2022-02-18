@@ -6,16 +6,6 @@
     "auditLog": "logs\\requests\\daily\\.66602cdde70fd43456e51d0c9addc83824638c4d-audit.json",
     "files": [
         {
-            "date": 1643896236866,
-            "name": "logs\\requests\\daily\\2022-02-03.log",
-            "hash": "b71c6308afcf13947a208be8277b1b26"
-        },
-        {
-            "date": 1643941425866,
-            "name": "logs\\requests\\daily\\2022-02-04.log",
-            "hash": "d22082b612cc4a1f8228ee4ff93a6044"
-        },
-        {
             "date": 1644028676452,
             "name": "logs\\requests\\daily\\2022-02-05.log",
             "hash": "0fb8ef4bf52ef040d7b323f79ba9eec9"
@@ -29,6 +19,51 @@
             "date": 1644261750568,
             "name": "logs\\requests\\daily\\2022-02-08.log",
             "hash": "8e8b6c9fdb01ada93e8b73599bfa0da6"
+        },
+        {
+            "date": 1644373626195,
+            "name": "logs\\requests\\daily\\2022-02-09.log",
+            "hash": "89680a099fe2b68a7c192ed7e8d6e84c"
+        },
+        {
+            "date": 1644492790175,
+            "name": "logs\\requests\\daily\\2022-02-10.log",
+            "hash": "a74673165be0134c975dca8ac534d809"
+        },
+        {
+            "date": 1644546012412,
+            "name": "logs\\requests\\daily\\2022-02-11.log",
+            "hash": "8ec176eda9a837facba35a4b433fd3c5"
+        },
+        {
+            "date": 1644632299058,
+            "name": "logs\\requests\\daily\\2022-02-12.log",
+            "hash": "7f894dff553d38283e51be0bb3c1d3ea"
+        },
+        {
+            "date": 1644735026974,
+            "name": "logs\\requests\\daily\\2022-02-13.log",
+            "hash": "b896af34ae2e5c55715a86f6be322e5f"
+        },
+        {
+            "date": 1644805764998,
+            "name": "logs\\requests\\daily\\2022-02-14.log",
+            "hash": "1c9720fecea3221cb072a074b0147ff8"
+        },
+        {
+            "date": 1645075354154,
+            "name": "logs\\requests\\daily\\2022-02-17.log",
+            "hash": "e24128bb3abe2a1981df8f8ade3a137a"
+        },
+        {
+            "date": 1645173339273,
+            "name": "logs\\requests\\daily\\2022-02-18.log",
+            "hash": "d4f2ab8441f3e11c937ecfb9d96d7568"
+        },
+        {
+            "date": 1645215528011,
+            "name": "logs\\requests\\daily\\2022-02-19.log",
+            "hash": "d549d2b7a4d5e7b89210fddf21bed6af"
         }
     ]
 }

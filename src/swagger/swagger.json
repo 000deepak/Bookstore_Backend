@@ -1,40 +1,35 @@
 {
-    "swagger": "2.0",
-    "info": {
-      "description": "This is Book Store App",
-      "version": "1.0.0",
-      "title": "Book Store App",
-      "contact": {
-        "email": "deepak@gmail.com"
-      }
+  "swagger": "2.0",
+  "info": {
+    "description": "This is Book Store App",
+    "version": "1.0.0",
+    "title": "Book Store App",
+    "contact": {
+      "email": "deepak@gmail.com"
+    }
+  },
+  "host": "localhost:9000",
+  "basePath": "/api/v1",
+  "tags": [
+    {
+      "name": "User"
     },
-    "host": "localhost:3000",
-    "basePath": "/api/v1",
-    "tags": [{
-        "name": "User"
-      }, 
-    
-      {
-        "name": "All User"
-      },
-      {
-        "name": "cart"
-      }
-    ],
-    "schemes": [
-      "http"
-    ],
-    "paths": {
-      "/users/user_registration": {
-        "post": {
-          "tags": [
-            "User"
-          ],
-          "produces": [
-  
-            "application/json"
-          ],
-          "parameters": [{
+
+    {
+      "name": "All User"
+    },
+    {
+      "name": "cart"
+    }
+  ],
+  "schemes": ["http"],
+  "paths": {
+    "/users/signup": {
+      "post": {
+        "tags": ["User"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
             "in": "body",
             "name": "body",
             "description": "User registration info",
@@ -43,188 +38,103 @@
               "type": "object",
               "required": ["FirstName", "LastName", "Email", "Password"],
               "properties": {
-                "FirstName": {
+                "firstName": {
                   "type": "string"
                 },
-                "LastName": {
+                "lastName": {
                   "type": "string"
                 },
-                "Email": {
+                "email": {
                   "type": "string"
                 },
-                "Password": {
+                "password": {
                   "type": "string"
                 }
               }
             }
-          }],
-          "responses": {
-            "201": {
-              "description": "Created Sucessfully"
-            },
-            "200": {
-              "description": "Sucessfully Executed"
-            },
-              "401":{
-              "description":"Unauthorized"
-            },"404":{
-              "description":"Data Not Found"
-            },
-            "500": {
-              "description": "Server error"
-            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
+          },
+          "200": {
+            "description": "Sucessfully Executed"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "404": {
+            "description": "Data Not Found"
+          },
+          "500": {
+            "description": "Server error"
           }
         }
-      },
-      "/users/user_login": {
-        "post": {
-          "tags": [
-            "User"
-          ],
-          "produces": [
-  
-            "application/json"
-          ],
-          "parameters": [{
+      }
+    },
+    "/user/signin": {
+      "post": {
+        "tags": ["User"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
             "in": "body",
             "name": "body",
             "description": "User login info",
             "required": true,
             "schema": {
               "type": "object",
-              "required": ["Email", "Password"],
+              "required": ["email", "password"],
               "properties": {
-                "Email": {
+                "email": {
                   "type": "string"
                 },
-                "Password": {
+                "password": {
                   "type": "string"
                 }
               }
-            }
-          }],
-          "responses": {
-            "201": {
-              "description": "Created Sucessfully"
-            },
-            "200": {
-              "description": "Sucessfully Executed"
-            },
-              "401":{
-              "description":"Unauthorized"
-            },"404":{
-              "description":"Data Not Found"
-            },
-            "500": {
-              "description": "Server error"
             }
           }
-        }
-      },
-      "/users/forgetpassword": {
-        "post": {
-          "tags": [
-            "All User"
-          ],
-          "produces": [
-  
-            "application/json"
-          ],
-          "parameters": [{
-            "in": "body",
-            "name": "body",
-            "description": "Sent mail for forgetpassword",
-            "required": true,
-            "schema": {
-              "type": "object",
-              "required": ["Email"],
-              "properties": {
-                "Email": {
-                  "type": "string"
-                }
-              }
-            }
-          }],
-          "responses": {
-            "201": {
-              "description": "Created Sucessfully"
-            },
-            "200": {
-              "description": "Sucessfully Executed"
-            },
-              "401":{
-              "description":"Unauthorized"
-            },"404":{
-              "description":"Data Not Found"
-            },
-            "500": {
-              "description": "Server error"
-            }
-          }
-        }
-      },
-      "/users/resetpassword": {
-        "post": {
-          "tags": [
-            "All User"
-          ],
-          "produces": [
-  
-            "application/json"
-          ],
-          "parameters": [{
-            "in": "body",
-            "name": "Resetpassword",
-            "description": "Reset new password",
-            "required": true,
-            "schema": {
-              "type": "object",
-              "required": ["Password"],
-              "properties": {
-                "Password": {
-                  "type": "string"
-                }
-              }
-            }
-          }],
-          "responses": {
-            "201": {
-              "description": "Created Sucessfully"
-            },
-            "200": {
-              "description": "Sucessfully Executed"
-            },
-              "401":{
-              "description":"Unauthorized"
-            },"404":{
-              "description":"Data Not Found"
-            },
-            "500": {
-              "description": "Server error"
-            }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
           },
-          "security": [{
-            "JWT": []
-          }]
+          "200": {
+            "description": "Sucessfully Executed"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "404": {
+            "description": "Data Not Found"
+          },
+          "500": {
+            "description": "Server error"
+          }
         }
-      },
-      "/books/": {
-        "post": {
-          "tags": [
-            "Admin"
-          ],
-          "produces": [
-  
-            "application/json"
-          ],
-          "parameters": [{
+      }
+    },
+    "/book/addbook": {
+      "post": {
+        "tags": ["Admin"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
             "in": "body",
             "name": "Add Books",
             "description": "Adding Book ",
             "required": true,
             "schema": {
               "type": "object",
-              "required": ["author", "title", "image", "quantity", "description"],
+              "required": [
+                "author",
+                "title",
+                "image",
+                "quantity",
+                "description"
+              ],
               "properties": {
                 "author": {
                   "type": "string"
@@ -244,71 +154,70 @@
                 "price": {
                   "type": "number"
                 }
-  
               }
             }
-          }],
-          "responses": {
-            "201": {
-              "description": "Created Sucessfully"
-            },
-            "200": {
-              "description": "Sucessfully Executed"
-            },
-              "401":{
-              "description":"Unauthorized"
-            },"404":{
-              "description":"Data Not Found"
-            },
-            "500": {
-              "description": "Server error"
-            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
           },
-          "security": [{
-            "JWT": []
-          }]
+          "200": {
+            "description": "Sucessfully Executed"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "404": {
+            "description": "Data Not Found"
+          },
+          "500": {
+            "description": "Server error"
+          }
         },
-        "get": {
-          "tags": [
-            "All User"
-          ],
-          "produces": [
-  
-            "application/json"
-          ],
-          "parameters": [{
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      }
+    },
+    "/book/book": {
+      "get": {
+        "tags": ["All User"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
             "in": "query",
             "name": "Fetch Books",
             "description": "Fetching All Books"
-          }],
-          "responses": {
-            "201": {
-              "description": "Created Sucessfully"
-            },
-            "200": {
-              "description": "Sucessfully Executed"
-            },
-              "401":{
-              "description":"Unauthorized"
-            },"404":{
-              "description":"Data Not Found"
-            },
-            "500": {
-              "description": "Server error"
-            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
+          },
+          "200": {
+            "description": "Sucessfully Executed"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "404": {
+            "description": "Data Not Found"
+          },
+          "500": {
+            "description": "Server error"
           }
         }
-      },
-      "/cart/": {
-        "post": {
-          "tags": [
-            "cart"
-          ],
-          "produces": [
-  
-            "application/json"
-          ],
-          "parameters": [{
+      }
+    },
+    "/cart/cart/:bookId": {
+      "post": {
+        "tags": ["cart"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
             "in": "body",
             "name": "Add Cart",
             "description": "Add Book to Cart",
@@ -325,68 +234,73 @@
                 }
               }
             }
-          }],
-          "responses": {
-            "201": {
-              "description": "Created Sucessfully"
-            },
-            "200": {
-              "description": "Sucessfully Executed"
-            },
-              "401":{
-              "description":"Unauthorized"
-            },"404":{
-              "description":"Data Not Found"
-            },
-            "500": {
-              "description": "Server error"
-            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
           },
-          "security": [{
-            "JWT": []
-          }]
+          "200": {
+            "description": "Sucessfully Executed"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "404": {
+            "description": "Data Not Found"
+          },
+          "500": {
+            "description": "Server error"
+          }
         },
-        "get": {
-          "tags": [
-            "cart"
-          ],
-          "produces": [
-  
-            "application/json"
-          ],
-          "parameters": [{
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      }
+    },
+    "/cart/cart": {
+      "get": {
+        "tags": ["cart"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
             "in": "query",
             "name": "Fetch Cart",
             "description": "Fetch all Book in Cart"
-          }],
-          "responses": {
-            "201": {
-              "description": "Created Sucessfully"
-            },
-            "200": {
-              "description": "Sucessfully Executed"
-            },
-              "401":{
-              "description":"Unauthorized"
-            },"404":{
-              "description":"Data Not Found"
-            },
-            "500": {
-              "description": "Server error"
-            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
           },
-          "security": [{
+          "200": {
+            "description": "Sucessfully Executed"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "404": {
+            "description": "Data Not Found"
+          },
+          "500": {
+            "description": "Server error"
+          }
+        },
+        "security": [
+          {
             "JWT": []
-          }]
-        },"patch": {
-          "tags": [
-            "cart"
-          ],
-          "produces": [
-  
-            "application/json"
-          ],
-          "parameters": [{
+          }
+        ]
+      }
+    },
+    "/cart/update/{bookId}": {
+      "put": {
+        "tags": ["cart"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
             "in": "body",
             "name": "Remove Book",
             "description": "Remove Book from Cart",
@@ -400,176 +314,180 @@
                 }
               }
             }
-          }],
-          "responses": {
-            "201": {
-              "description": "Created Sucessfully"
-            },
-            "200": {
-              "description": "Sucessfully Executed"
-            },
-              "401":{
-              "description":"Unauthorized"
-            },"404":{
-              "description":"Data Not Found"
-            },
-            "500": {
-              "description": "Server error"
-            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
           },
-          "security": [{
+          "200": {
+            "description": "Sucessfully Executed"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "404": {
+            "description": "Data Not Found"
+          },
+          "500": {
+            "description": "Server error"
+          }
+        },
+        "security": [
+          {
             "JWT": []
-          }]
-        }
-      },
-       "/cart/purchase": {
-        "get": {
-          "tags": [
-            "cart"
-          ],
-          "produces": [
-  
-            "application/json"
-          ],
-          "parameters": [{
+          }
+        ]
+      }
+    },
+    "/cart/purchase": {
+      "post": {
+        "tags": ["cart"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
             "in": "query",
             "name": "Purchase Cart",
             "description": "Purchase Cart"
-          }],
-          "responses": {
-            "201": {
-              "description": "Created Sucessfully"
-            },
-            "200": {
-              "description": "Sucessfully Executed"
-            },
-              "401":{
-              "description":"Unauthorized"
-            },"404":{
-              "description":"Data Not Found"
-            },
-            "500": {
-              "description": "Server error"
-            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
           },
-          "security": [{
+          "200": {
+            "description": "Sucessfully Executed"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "404": {
+            "description": "Data Not Found"
+          },
+          "500": {
+            "description": "Server error"
+          }
+        },
+        "security": [
+          {
             "JWT": []
-          }]
-        }},
-      "/wishlist/": {
-        "get": {
-          "tags": [
-            "Wishlist"
-          ],
-          "produces": [
-    
-            "application/json"
-          ],
-          "parameters": [{
+          }
+        ]
+      }
+    },
+    "/wishlist/wishlist": {
+      "get": {
+        "tags": ["Wishlist"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
             "in": "query",
             "name": "Wishlist",
             "description": "Fetching wishlist"
-          }],
-          "responses": {
-            "201": {
-              "description": "Created Sucessfully"
-            },
-            "200": {
-              "description": "Sucessfully Executed"
-            },
-              "401":{
-              "description":"Unauthorized"
-            },"404":{
-              "description":"Data Not Found"
-            },
-            "500": {
-              "description": "Server error"
-            }
-          },"security":[{
-            "JWT": []
-          }]
-        }
-      },
-      "/wishlist/{BookID}": {
-        "post": {
-          "tags": [
-            "Wishlist"
-          ],
-          "produces": [
-  
-            "application/json"
-          ],
-          "parameters": [{
-              "in": "path",
-              "name": "BookID",
-              "description": "Adding in Wishlist",
-              "type": "string"
-            }
-  
-          ],
-          "responses": {
-            "201": {
-              "description": "Created Sucessfully"
-            },
-            "200": {
-              "description": "Sucessfully Executed"
-            },
-              "401":{
-              "description":"Unauthorized"
-            },"404":{
-              "description":"Data Not Found"
-            },
-            "500": {
-              "description": "Server error"
-            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
           },
-          "security": [{
-            "JWT": []
-          }]
-        },"patch": {
-          "tags": [
-            "Wishlist"
-          ],
-          "produces": [
-  
-            "application/json"
-          ],
-          "parameters": [{
-              "in": "path",
-              "name": "BookID",
-              "description": "Removing from Wishlist",
-              "type": "string"
-            }
-  
-          ],
-          "responses": {
-            "201": {
-              "description": "Created Sucessfully"
-            },
-            "200": {
-              "description": "Sucessfully Executed"
-            },
-              "401":{
-              "description":"Unauthorized"
-            },"404":{
-              "description":"Data Not Found"
-            },
-            "500": {
-              "description": "Server error"
-            }
+          "200": {
+            "description": "Sucessfully Executed"
           },
-          "security": [{
+          "401": {
+            "description": "Unauthorized"
+          },
+          "404": {
+            "description": "Data Not Found"
+          },
+          "500": {
+            "description": "Server error"
+          }
+        },
+        "security": [
+          {
             "JWT": []
-          }]
-        }
+          }
+        ]
       }
     },
-    "securityDefinitions": {
-      "JWT": {
-        "type": "apiKey",
-        "name": "Authorization",
-        "in": "header"
-  
+    "/wishlist/wishlist/{bookId}": {
+      "post": {
+        "tags": ["Wishlist"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "BookID",
+            "description": "Adding in Wishlist",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
+          },
+          "200": {
+            "description": "Sucessfully Executed"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "404": {
+            "description": "Data Not Found"
+          },
+          "500": {
+            "description": "Server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      }
+    },
+    "wishlist/update/{bookId}": {
+      "put": {
+        "tags": ["Wishlist"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "BookID",
+            "description": "Removing from Wishlist",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created Sucessfully"
+          },
+          "200": {
+            "description": "Sucessfully Executed"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "404": {
+            "description": "Data Not Found"
+          },
+          "500": {
+            "description": "Server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
       }
     }
+  },
+  "securityDefinitions": {
+    "JWT": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header"
+    }
   }
+}

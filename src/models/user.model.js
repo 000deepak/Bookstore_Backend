@@ -6,32 +6,27 @@
  * @since        1/2/2022
  */
 
-
 //imports
 import { Schema, model } from 'mongoose';
 
 const userSchema = new Schema(
   {
     firstName: {
-      type: String,
-  
+      type: String
     },
     lastName: {
-      type: String,
-
+      type: String
     },
     email: {
-      type: String,
-    
+      type: String
     },
     password: {
-      type: String,
-   
-    },
+      type: String
+    }
   },
   {
-    timestamps: true,
+    timestamps: true
   }
 );
 
-export default model("Users", userSchema);
+export default model('Users', userSchema);

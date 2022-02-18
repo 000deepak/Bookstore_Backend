@@ -1342,3 +1342,304 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-02-07T19:42:18.949Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/cart 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-07T20:17:13.020Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-08T11:34:37.367Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-08T11:34:37.372Z"}
+error: uncaughtException: C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\cart.service.js: Identifier 'getCart' has already been declared. (287:13)
+
+[0m [90m 285 |[39m[0m
+[0m [90m 286 |[39m [90m//get all Cart Books[39m[0m
+[0m[31m[1m>[22m[39m[90m 287 |[39m [36mexport[39m [36mconst[39m getCart [33m=[39m [36masync[39m (req) [33m=>[39m {[0m
+[0m [90m     |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 288 |[39m   [36mlet[39m response [33m=[39m {[0m
+[0m [90m 289 |[39m     status[33m:[39m [35m201[39m[33m,[39m[0m
+[0m [90m 290 |[39m     success[33m:[39m [36mtrue[39m[33m,[39m[0m
+SyntaxError: C:\Users\HP\Desktop\Project\Bookstore\Backend\src\services\cart.service.js: Identifier 'getCart' has already been declared. (287:13)
+
+[0m [90m 285 |[39m[0m
+[0m [90m 286 |[39m [90m//get all Cart Books[39m[0m
+[0m[31m[1m>[22m[39m[90m 287 |[39m [36mexport[39m [36mconst[39m getCart [33m=[39m [36masync[39m (req) [33m=>[39m {[0m
+[0m [90m     |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 288 |[39m   [36mlet[39m response [33m=[39m {[0m
+[0m [90m 289 |[39m     status[33m:[39m [35m201[39m[33m,[39m[0m
+[0m [90m 290 |[39m     success[33m:[39m [36mtrue[39m[33m,[39m[0m
+    at Parser._raise (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at ScopeHandler.checkRedeclarationInScope (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\parser\src\util\scope.js:152:12)
+    at ScopeHandler.declareName (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\parser\src\util\scope.js:113:12)
+    at Parser.checkLVal (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\parser\src\parser\lval.js:531:22)
+    at Parser.parseVarId (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\parser\src\parser\statement.js:1240:10)
+    at Parser.parseVar (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\parser\src\parser\statement.js:1201:12)
+    at Parser.parseVarStatement (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\parser\src\parser\statement.js:891:10)
+    at Parser.parseStatementContent (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\parser\src\parser\statement.js:391:21)
+    at Parser.parseStatement (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\parser\src\parser\statement.js:331:17)
+    at Parser.parseExportDeclaration (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\parser\src\parser\statement.js:2049:17)
+    at Parser.maybeParseExportDeclaration (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\parser\src\parser\statement.js:1996:31)
+    at Parser.parseExport (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\parser\src\parser\statement.js:1916:29)
+    at Parser.parseStatementContent (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\parser\src\parser\statement.js:429:25)
+    at Parser.parseStatement (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\parser\src\parser\statement.js:331:17) {"date":"Tue Feb 08 2022 17:07:34 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":13,"line":287},"pos":7411,"reasonCode":"VarRedeclaration"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":191854},"process":{"argv":["node","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18335954,"external":22987658,"heapTotal":95404032,"heapUsed":73026176,"rss":129556480},"pid":2024,"uid":null,"version":"v16.13.0"},"stack":"SyntaxError: C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\services\\cart.service.js: Identifier 'getCart' has already been declared. (287:13)\n\n\u001b[0m \u001b[90m 285 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 286 |\u001b[39m \u001b[90m//get all Cart Books\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 287 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m getCart \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m (req) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 288 |\u001b[39m   \u001b[36mlet\u001b[39m response \u001b[33m=\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 289 |\u001b[39m     status\u001b[33m:\u001b[39m \u001b[35m201\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 290 |\u001b[39m     success\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at ScopeHandler.checkRedeclarationInScope (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\util\\scope.js:152:12)\n    at ScopeHandler.declareName (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\util\\scope.js:113:12)\n    at Parser.checkLVal (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\lval.js:531:22)\n    at Parser.parseVarId (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1240:10)\n    at Parser.parseVar (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1201:12)\n    at Parser.parseVarStatement (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:891:10)\n    at Parser.parseStatementContent (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:391:21)\n    at Parser.parseStatement (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:331:17)\n    at Parser.parseExportDeclaration (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:2049:17)\n    at Parser.maybeParseExportDeclaration (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1996:31)\n    at Parser.parseExport (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1916:29)\n    at Parser.parseStatementContent (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:429:25)\n    at Parser.parseStatement (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:331:17)","timestamp":"2022-02-08T11:37:34.844Z","trace":[{"column":45,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.checkRedeclarationInScope","line":152,"method":"checkRedeclarationInScope","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.declareName","line":113,"method":"declareName","native":false},{"column":22,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\lval.js","function":"Parser.checkLVal","line":531,"method":"checkLVal","native":false},{"column":10,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVarId","line":1240,"method":"parseVarId","native":false},{"column":12,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVar","line":1201,"method":"parseVar","native":false},{"column":10,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVarStatement","line":891,"method":"parseVarStatement","native":false},{"column":21,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":391,"method":"parseStatementContent","native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":331,"method":"parseStatement","native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExportDeclaration","line":2049,"method":"parseExportDeclaration","native":false},{"column":31,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.maybeParseExportDeclaration","line":1996,"method":"maybeParseExportDeclaration","native":false},{"column":29,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExport","line":1916,"method":"parseExport","native":false},{"column":25,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":429,"method":"parseStatementContent","native":false},{"column":17,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":331,"method":"parseStatement","native":false}]}
+error: error in updating cart Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle {"stack":"TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle\n    at JSON.stringify (<anonymous>)\n    at stringify (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\express\\lib\\response.js:1128:12)\n    at ServerResponse.json (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\express\\lib\\response.js:260:14)\n    at _callee3$ (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\src\\controllers\\/cart.controller.js:52:29)\n    at tryCatch (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n    at asyncGeneratorStep (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-02-08T11:48:23.337Z"}
+error: 
+    status - 500 
+    message - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\response.js:1128:12)
+    at ServerResponse.json (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\express\lib\response.js:260:14)
+    at _callee3$ (C:\Users\HP\Desktop\Project\Bookstore\Backend\src\controllers\/cart.controller.js:52:29)
+    at tryCatch (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/update/6200f7e99fcbc61d6c4ef777 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-08T11:48:23.344Z"}
+error: error in updating cart Cast to ObjectId failed for value "200f7e99fcbc61d6c4ef777" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"200f7e99fcbc61d6c4ef777\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"200f7e99fcbc61d6c4ef777\"","timestamp":"2022-02-08T11:49:33.601Z","value":"200f7e99fcbc61d6c4ef777","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "200f7e99fcbc61d6c4ef777" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/update/200f7e99fcbc61d6c4ef777 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T11:49:33.606Z"}
+error: error in updating cart Cast to ObjectId failed for value "200f7e99fcbc61d6c4ef777" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"200f7e99fcbc61d6c4ef777\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"200f7e99fcbc61d6c4ef777\"","timestamp":"2022-02-08T11:50:07.511Z","value":"200f7e99fcbc61d6c4ef777","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "200f7e99fcbc61d6c4ef777" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/update/200f7e99fcbc61d6c4ef777 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T11:50:07.516Z"}
+error: 
+    status - 500 
+    message - ValidationError: Customers validation failed: state: Path `state` is required.
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/customer/customer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T05:53:42.418Z"}
+error: 
+    status - 500 
+    message - ValidationError: Customers validation failed: state: Path `state` is required.
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/customer/customer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T05:54:28.549Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-09T06:24:03.631Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T06:24:03.634Z"}
+error: 
+    status - 500 
+    message - ValidationError: Customers validation failed: fullName: Path `fullName` is required., phoneNo: Path `phoneNo` is required., pinCode: Path `pinCode` is required., locality: Path `locality` is required., address: Path `address` is required., city: Path `city` is required.
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/customer/customer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T06:34:57.642Z"}
+error: 
+    status - 500 
+    message - ValidationError: Customers validation failed: fullName: Path `fullName` is required., phoneNo: Path `phoneNo` is required., pinCode: Path `pinCode` is required., locality: Path `locality` is required., address: Path `address` is required., city: Path `city` is required.
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/customer/customer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T06:43:37.268Z"}
+error: 
+    status - 500 
+    message - ValidationError: Customers validation failed: fullName: Path `fullName` is required., phoneNo: Path `phoneNo` is required., pinCode: Path `pinCode` is required., locality: Path `locality` is required., address: Path `address` is required., city: Path `city` is required.
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/customer/customer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T06:51:48.538Z"}
+error: 
+    status - 500 
+    message - ValidationError: Customers validation failed: fullName: Path `fullName` is required., phoneNo: Path `phoneNo` is required., pinCode: Path `pinCode` is required., locality: Path `locality` is required., address: Path `address` is required., city: Path `city` is required.
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/customer/customer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T07:14:55.273Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-09T07:57:00.336Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T07:57:00.340Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-09T07:57:02.020Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T07:57:02.023Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-09T07:57:03.477Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T07:57:03.481Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-09T07:57:11.346Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T07:57:11.350Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-09T07:57:20.656Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T07:57:20.660Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-09T07:57:22.678Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T07:57:22.682Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-09T07:57:38.725Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T07:57:38.730Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/cart 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-09T10:50:39.492Z"}
+error: uncaughtException: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\HP\Desktop\Project\Bookstore\Backend\build\index.js
+Error: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\HP\Desktop\Project\Bookstore\Backend\build\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\build\index.js:30:39)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 21:42:42 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\build\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":193873},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\build\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18704871,"external":26054862,"heapTotal":66789376,"heapUsed":38532328,"rss":88096768},"pid":15000,"uid":null,"version":"v16.13.0"},"stack":"Error: Cannot find module './swagger/swagger.json'\nRequire stack:\n- C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\build\\index.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\build\\index.js:30:39)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-11T16:12:42.807Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":933,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":39,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\build\\index.js","function":null,"line":30,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\HP\Desktop\Project\Bookstore\Backend\build\index.js
+Error: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\HP\Desktop\Project\Bookstore\Backend\build\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Bookstore\Backend\build\index.js:30:39)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 21:45:40 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\build\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":104},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\build\\index.js"],"cwd":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18606567,"external":27462317,"heapTotal":66789376,"heapUsed":38308536,"rss":87404544},"pid":1520,"uid":null,"version":"v16.13.0"},"stack":"Error: Cannot find module './swagger/swagger.json'\nRequire stack:\n- C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\build\\index.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\build\\index.js:30:39)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-11T16:15:40.612Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":933,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":39,"file":"C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\build\\index.js","function":null,"line":30,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}

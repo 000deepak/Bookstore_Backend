@@ -6,14 +6,13 @@
  * @since        1/2/2022
  */
 
- import express from 'express';
- import * as orderController from '../controllers/order.controller';
- import * as Validator from '../validators/validator';
- 
- const router = express.Router();
- 
- //route to add book
- router.post('/addorder', Validator.orderValidator, orderController.newOrder);
- 
- export default router;
- 
+import express from 'express';
+import * as orderController from '../controllers/order.controller';
+import * as Validator from '../validators/validator';
+
+const router = express.Router();
+
+//route to add book
+router.post('/addorder', Validator.orderValidator, orderController.newOrder);
+
+export default router;

@@ -8,8 +8,6 @@
 
 import Order from '../models/order.model';
 
-//-----------------------------------------------Order
-
 //add Order
 export const newOrder = async (body) => {
   let response = {

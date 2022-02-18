@@ -12,7 +12,7 @@ import userRoute from './user.route';
 import cartRoute from './cart.route';
 import customerRoute from './customer.route';
 import orderRoute from './order.route';
-import wishlistRoute from "./wishlist.route"
+import wishlistRoute from './wishlist.route';
 
 const router = express.Router();
 

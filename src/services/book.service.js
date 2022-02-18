@@ -27,8 +27,7 @@ export const newBook = async (body) => {
       description: body.description,
       quantity: body.quantity,
       price: body.price,
-      discountPrice: body.discountPrice,
-      wishlist: body.wishlist
+      discountPrice: body.discountPrice
     });
 
     const data = await Book.create(newBook);
@@ -39,14 +38,13 @@ export const newBook = async (body) => {
     response.data = data;
     return response;
   } else {
-    response.status = 200;
+    response.status = 409;
     response.success = false;
     response.message = 'Book Already Exists';
     response.data = body;
     return response;
   }
 };
-
 
 //get all Books
 export const getBooks = async () => {

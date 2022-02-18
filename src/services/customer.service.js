@@ -8,8 +8,6 @@
 
 import Address from '../models/Address.model';
 
-//-----------------------------------------------Customer
-
 //add Customer
 export const newAddress = async (body) => {
   let response = {
@@ -20,10 +18,15 @@ export const newAddress = async (body) => {
   };
 
   let newAddress = new Address({
-    addressType: body.addressType,
-    fullAddress: body.fullAddress,
+    fullName: body.fullName,
+    phoneNo: body.phoneNo,
+    pinCode: body.pinCode,
+    locality: body.locality,
+    address: body.address,
     city: body.city,
-    state: body.state
+    state: body.state,
+    landmark: body.landmark,
+    addressType: body.addressType
   });
 
   const data = await Address.create(newAddress);

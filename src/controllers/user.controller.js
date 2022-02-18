@@ -7,6 +7,7 @@
  */
 
 import * as userService from '../services/user.service';
+import logger from '../config/logger';
 
 /**
  * Controller to create a new user
@@ -21,12 +22,14 @@ export const signup = async (req, res, next) => {
     const data = await userService.signup(req.body);
     res.status(data.status).json(data);
   } catch (error) {
+    logger.error('error in user registration', error);
+
     next(error);
   }
 };
 
 /**
- * Controller to loginuser
+ * Controller to login user
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next
@@ -36,6 +39,8 @@ export const signin = async (req, res, next) => {
     const data = await userService.signin(req.body);
     res.status(data.status).json(data);
   } catch (error) {
+    logger.error('error in user login', error);
+
     next(error);
   }
 };

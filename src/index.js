@@ -17,8 +17,8 @@ import logger, { logStream } from './config/logger';
 import morgan from 'morgan';
 import cors from 'cors';
 import swaggerjsdoc from 'swagger-jsdoc';
-// import swaggerUi from 'swagger-ui-express';
-// import swaggerDocument from './swagger/swagger.json';
+import swaggerUi from 'swagger-ui-express';
+import swaggerDocument from './swagger/swagger.json';
 
 import {
   appErrorHandler,
@@ -49,8 +49,6 @@ app.listen(port, () => {
 
 export default app;
 
-
 // import helmet from 'helmet';
-
 // app.use(helmet());
 // app.use(express.urlencoded({ extended: true }));

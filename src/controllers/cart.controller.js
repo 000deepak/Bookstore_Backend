@@ -6,6 +6,7 @@
  * @since        1/2/2022
  */
 import * as cartService from '../services/cart.service';
+import logger from '../config/logger';
 
 /**
  * Controller to create a new Book
@@ -18,11 +19,11 @@ export const addCart = async (req, res, next) => {
     const data = await cartService.addCart(req);
     res.status(data.status).json(data);
   } catch (error) {
+    logger.error('error in adding book to cart', error);
     next(error);
   }
 };
 
-//get cart items
 /**
  * Controller to get all Books available
  * @param  {object} req - request object
@@ -34,12 +35,11 @@ export const getCart = async (req, res, next) => {
     const data = await cartService.getCart(req);
     res.status(data.status).json(data);
   } catch (error) {
+    logger.error('error in gettting cart books', error);
     next(error);
   }
 };
 
-
-//update cart items
 /**
  * Controller to update a Book
  * @param  {object} req - request object
@@ -51,6 +51,7 @@ export const updateCart = async (req, res, next) => {
     const data = await cartService.updateCart(req);
     res.status(data.status).json(data);
   } catch (error) {
+    logger.error('error in updating cart', error);
     next(error);
   }
 };

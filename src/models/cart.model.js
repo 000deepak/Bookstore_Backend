@@ -4,6 +4,7 @@
  * @file         cart.model.js
  * @author       deepak
  * @since        1/2/2022
+ *
  */
 
 import { Schema, model } from 'mongoose';

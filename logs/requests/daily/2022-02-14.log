@@ -1,0 +1,304 @@
+info: ::1 - - [14/Feb/2022:02:29:31 +0000] "OPTIONS /api/v1/wishlist/wishlist HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:32 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 200 186 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:32 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:33 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:33 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 471 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:33 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:41 +0000] "OPTIONS /api/v1/book/book HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:41 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:41 +0000] "OPTIONS /api/v1/wishlist/wishlist HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:41 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:41 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:41 +0000] "GET /api/v1/book/book HTTP/1.1" 200 3034 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:41 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:41 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:47 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:47 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:47 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:49 +0000] "OPTIONS /api/v1/cart/update/62069a92e3e9d8205c166a7c HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:49 +0000] "PUT /api/v1/cart/update/62069a92e3e9d8205c166a7c HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:49 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 471 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:50 +0000] "PUT /api/v1/cart/update/62069a92e3e9d8205c166a7c HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:50 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 471 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:51 +0000] "PUT /api/v1/cart/update/62069a92e3e9d8205c166a7c HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:51 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 471 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:53 +0000] "OPTIONS /api/v1/cart/update/62069aa8e3e9d8205c166a84 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:53 +0000] "PUT /api/v1/cart/update/62069aa8e3e9d8205c166a84 HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:53 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:53 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 471 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:53 +0000] "PUT /api/v1/cart/update/62069aa8e3e9d8205c166a84 HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:53 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 471 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:54 +0000] "PUT /api/v1/cart/update/62069aa8e3e9d8205c166a84 HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:54 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 471 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:55 +0000] "OPTIONS /api/v1/cart/update/62069aabe3e9d8205c166a87 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:55 +0000] "PUT /api/v1/cart/update/62069aabe3e9d8205c166a87 HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:55 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 387 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:56 +0000] "OPTIONS /api/v1/cart/update/62069abce3e9d8205c166a8a HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:56 +0000] "PUT /api/v1/cart/update/62069abce3e9d8205c166a8a HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:56 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 303 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:58 +0000] "OPTIONS /api/v1/cart/update/62069aa8e3e9d8205c166a84 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:58 +0000] "PUT /api/v1/cart/update/62069aa8e3e9d8205c166a84 HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:58 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:58 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 303 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:59 +0000] "PUT /api/v1/cart/update/62069aa8e3e9d8205c166a84 HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:59 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 303 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:59 +0000] "OPTIONS /api/v1/cart/update/62069a92e3e9d8205c166a7c HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:59 +0000] "PUT /api/v1/cart/update/62069a92e3e9d8205c166a7c HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:29:59 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 303 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:30:00 +0000] "PUT /api/v1/cart/update/62069a92e3e9d8205c166a7c HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:30:00 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 303 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:33:18 +0000] "OPTIONS /api/v1/cart/cart/62069aabe3e9d8205c166a87 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:33:18 +0000] "POST /api/v1/cart/cart/62069aabe3e9d8205c166a87 HTTP/1.1" 200 72 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:33:18 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:33:18 +0000] "OPTIONS /api/v1/wishlist/wishlist HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:33:18 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 387 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:33:18 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:33:22 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:33:22 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:33:27 +0000] "OPTIONS /api/v1/cart/update/62069a92e3e9d8205c166a7c HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:33:27 +0000] "PUT /api/v1/cart/update/62069a92e3e9d8205c166a7c HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:33:27 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:33:27 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 387 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:34:19 +0000] "OPTIONS /api/v1/book/book HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:34:19 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:34:19 +0000] "OPTIONS /api/v1/wishlist/wishlist HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:34:19 +0000] "GET /api/v1/book/book HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:34:19 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:34:19 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:34:19 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:34:19 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:34:33 +0000] "OPTIONS /api/v1/wishlist/wishlist HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:34:33 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:34:33 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:34:39 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:34:39 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:02:34:39 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:34:25 +0000] "OPTIONS /api/v1/book/book HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:34:25 +0000] "OPTIONS /api/v1/wishlist/wishlist HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:34:25 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:34:25 +0000] "GET /api/v1/book/book HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:34:25 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:34:25 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:34:25 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:34:25 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:37:40 +0000] "OPTIONS /api/v1/cart/cart/62069abce3e9d8205c166a8a HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:37:40 +0000] "POST /api/v1/cart/cart/62069abce3e9d8205c166a8a HTTP/1.1" 200 72 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:37:40 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:37:40 +0000] "OPTIONS /api/v1/wishlist/wishlist HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:37:40 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 471 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:37:40 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:37:46 +0000] "OPTIONS /api/v1/wishlist/wishlist/62069ac0e3e9d8205c166a8d HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:37:46 +0000] "POST /api/v1/wishlist/wishlist/62069ac0e3e9d8205c166a8d HTTP/1.1" 200 261 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:37:46 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:37:46 +0000] "OPTIONS /api/v1/wishlist/wishlist HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:37:46 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:37:46 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 200 257 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:38:27 +0000] "OPTIONS /api/v1/wishlist/wishlist HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:38:27 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:38:27 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:39:01 +0000] "OPTIONS /api/v1/wishlist/wishlist HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:39:01 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:03:39:01 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:45 +0000] "OPTIONS /api/v1/wishlist/wishlist HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:45 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:45 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:46 +0000] "OPTIONS /api/v1/wishlist/update/62069aa2e3e9d8205c166a81 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:46 +0000] "PUT /api/v1/wishlist/update/62069aa2e3e9d8205c166a81 HTTP/1.1" 200 271 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:46 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 200 186 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:47 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:47 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:47 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:48 +0000] "OPTIONS /api/v1/cart/update/62069a92e3e9d8205c166a7c HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:48 +0000] "PUT /api/v1/cart/update/62069a92e3e9d8205c166a7c HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:48 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 387 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:48 +0000] "OPTIONS /api/v1/cart/update/62069aa8e3e9d8205c166a84 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:48 +0000] "PUT /api/v1/cart/update/62069aa8e3e9d8205c166a84 HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:48 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 303 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:48 +0000] "OPTIONS /api/v1/cart/update/62069aabe3e9d8205c166a87 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:48 +0000] "PUT /api/v1/cart/update/62069aabe3e9d8205c166a87 HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:02:49 +0000] "GET /api/v1/cart/cart HTTP/1.1" 200 219 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:18:51 +0000] "OPTIONS /api/v1/wishlist/wishlist HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:18:51 +0000] "OPTIONS /api/v1/book/book HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:18:51 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:18:51 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:18:51 +0000] "GET /api/v1/book/book HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:18:51 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:18:51 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:18:51 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:30:09 +0000] "OPTIONS /api/v1/wishlist/wishlist HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:30:09 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:30:10 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:30:32 +0000] "OPTIONS /api/v1/wishlist/wishlist HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:30:32 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:30:34 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:30:34 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:30:34 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:01 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:01 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:11 +0000] "OPTIONS /api/v1/cart/cart HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:11 +0000] "OPTIONS /api/v1/book/book HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:11 +0000] "OPTIONS /api/v1/wishlist/wishlist HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:11 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:11 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:11 +0000] "GET /api/v1/book/book HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:11 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:11 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:11 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:13 +0000] "GET /api/v1/book/book HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:13 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:13 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:13 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:13 +0000] "GET /api/v1/cart/cart HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:04:31:13 +0000] "GET /api/v1/wishlist/wishlist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+

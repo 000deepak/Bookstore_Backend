@@ -1,0 +1,211 @@
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T02:27:08.975Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T02:27:09.025Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T02:53:28.749Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T02:53:28.811Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T02:55:30.345Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T02:55:30.390Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T02:57:50.711Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T02:57:50.763Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T03:00:00.841Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T03:00:00.881Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T03:01:34.211Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T03:01:34.264Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T03:04:11.808Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T03:04:11.853Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T04:27:12.431Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T04:27:12.462Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T05:39:43.213Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:39:43.262Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T05:43:34.903Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:43:34.933Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T05:45:47.288Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:45:47.344Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T05:46:15.782Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:46:15.812Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T05:46:45.743Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:46:45.771Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T05:47:22.462Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:47:22.497Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T05:48:07.861Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:48:07.889Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T05:49:41.145Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:49:41.183Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T05:49:52.590Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:49:52.623Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T05:51:27.123Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:51:27.167Z"}
+error: 
+    status - 500 
+    message - ValidationError: Customers validation failed: state: Path `state` is required.
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/customer/customer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T05:53:42.418Z"}
+error: 
+    status - 500 
+    message - ValidationError: Customers validation failed: state: Path `state` is required.
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/customer/customer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T05:54:28.549Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T05:55:31.024Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:55:31.060Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-09T06:24:03.631Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T06:24:03.634Z"}
+error: 
+    status - 500 
+    message - ValidationError: Customers validation failed: fullName: Path `fullName` is required., phoneNo: Path `phoneNo` is required., pinCode: Path `pinCode` is required., locality: Path `locality` is required., address: Path `address` is required., city: Path `city` is required.
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/customer/customer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T06:34:57.642Z"}
+error: 
+    status - 500 
+    message - ValidationError: Customers validation failed: fullName: Path `fullName` is required., phoneNo: Path `phoneNo` is required., pinCode: Path `pinCode` is required., locality: Path `locality` is required., address: Path `address` is required., city: Path `city` is required.
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/customer/customer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T06:43:37.268Z"}
+error: 
+    status - 500 
+    message - ValidationError: Customers validation failed: fullName: Path `fullName` is required., phoneNo: Path `phoneNo` is required., pinCode: Path `pinCode` is required., locality: Path `locality` is required., address: Path `address` is required., city: Path `city` is required.
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/customer/customer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T06:51:48.538Z"}
+error: 
+    status - 500 
+    message - ValidationError: Customers validation failed: fullName: Path `fullName` is required., phoneNo: Path `phoneNo` is required., pinCode: Path `pinCode` is required., locality: Path `locality` is required., address: Path `address` is required., city: Path `city` is required.
+    at model.Document.invalidate (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/customer/customer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T07:14:55.273Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-09T07:57:00.336Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T07:57:00.340Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-09T07:57:02.020Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T07:57:02.023Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-09T07:57:03.477Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T07:57:03.481Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-09T07:57:11.346Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T07:57:11.350Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-09T07:57:20.656Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T07:57:20.660Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-09T07:57:22.678Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T07:57:22.682Z"}
+error: error in adding book to cart Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books" {"kind":"ObjectId","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Books\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Bookstore\\Backend\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"undefined\"","timestamp":"2022-02-09T07:57:38.725Z","value":"undefined","valueType":"string"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Bookstore\Backend\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T07:57:38.730Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T10:25:40.422Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T10:25:40.486Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/cart 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-09T10:50:39.492Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2022-02-09T13:30:14.366Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T13:30:14.414Z"}

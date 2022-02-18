@@ -6,7 +6,6 @@
  * @since        1/2/2022
  */
 
-
 import express from 'express';
 import * as bookController from '../controllers/book.controller';
 import * as Validator from '../validators/validator';

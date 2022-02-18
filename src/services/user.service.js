@@ -19,8 +19,6 @@ export const signup = async (body) => {
 
   let foundUser = await User.find(email);
 
-  console.log(foundUser.length);
-
   let len = foundUser.length;
 
   if (len == 0) {
@@ -53,7 +51,6 @@ export const signup = async (body) => {
     return response;
   }
 };
-
 
 //login service
 export const signin = async (body) => {
